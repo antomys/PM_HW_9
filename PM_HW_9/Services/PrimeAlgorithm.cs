@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using PM_HW_9.Exceptions;
@@ -14,6 +14,7 @@ namespace PM_HW_9.Services
     {
         private readonly ILogger<PrimeAlgorithm> _logger;
         private readonly ISettings _settings;
+        private const string FileName = "output.json";
 
         public PrimeAlgorithm(
             ILogger<PrimeAlgorithm> logger,
@@ -23,20 +24,57 @@ namespace PM_HW_9.Services
             _settings = settings;
         }
 
-        public async Task<Result> GetPrimes()
+        public async Task<bool> GetPrimes()
         {
+            //options to write in a human friendly format
+            var option = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            };
+
+            //Dumb check if file exists to not overwrite
+            if (File.Exists(FileName))
+                File.Delete(FileName);
+            
             //Put here. To split.
-            await using var fs = new FileStream("output.json", FileMode.OpenOrCreate);
+            await using var fs = new FileStream(FileName, FileMode.OpenOrCreate);
             var task = await FindPrimes();
-            await JsonSerializer.SerializeAsync<Result>(fs, task);
+
+            if (task is null)
+            {
+                _logger.LogError($"Error. Task is null");
+                return false;
+            }
+            
+            await JsonSerializer.SerializeAsync(fs, task, option);
                 
             Console.WriteLine("Data has been saved to file");
             
             //todo: add something fancy. Logger for example.
-            return task;
+            
+            _logger.LogTrace($"File created successfully");
+            return true;
+
         }
-        
-        
+
+        public Task<bool> IsPrime(int number)
+        {
+            if (number < 2)
+            {
+                _logger.LogError($"Exception. Number {number} is less than 2");
+                
+                return Task.FromResult(false);
+            }
+                
+            var isPrime =
+                Enumerable.Range(2, (int)Math.Sqrt(number) - 1)
+                    .All(divisor => number % divisor != 0);
+            
+            return Task.FromResult(isPrime);
+        }
+
+
         public async Task<Result> FindPrimes()
         {
             return await Task.Run(() =>
@@ -75,18 +113,20 @@ namespace PM_HW_9.Services
                     var elapsedTime = DateTime.Now.Subtract(time).ToString();
 
                     //todo: add logger
+                    _logger.LogInformation("Successfully made everything. Creating new object");
+                    
                     return new Result
                     {
                         Success = true,
                         Error = string.Empty,
                         Duration = elapsedTime,
                         Primes = primes
-
                     };
+                    
                 }
-                
                 catch (ArgumentOutOfRange exception)
                 {
+                    _logger.LogWarning(exception.Message);
                     //todo: add logger
                     return null;
                 }

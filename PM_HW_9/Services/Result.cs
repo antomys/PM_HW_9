@@ -32,5 +32,11 @@
         /// </summary>
         [JsonPropertyName("primes")]
         public List<int> Primes { get; init; }
+
+        public override string ToString()
+        {
+            return $"Success: {Success}\n" +
+                   $"Duration: {Duration}\n";
+        }
     }
 }
