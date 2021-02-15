@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "//wOFhqAq5VBJg5+2ssofHqz7KKcIpgK62lzTGHEJTXYL/qh3AbyiishmLk51UiM3VXh4Wo+19d1bR+rOztm0A==",
+  "dgSpecHash": "SJNExN+uvtZxAgwRmzFPwiMNcFC8gwzvD4UfKp0xKoXxVb6b37LWR1DzSGrh4qGr++0/QVMUPSCUAiFoVk7l8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\PM_HW_9\\PM_HW_9.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.8\\microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.8\\microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.logging\\2.0.0\\microsoft.extensions.logging.2.0.0.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\newtonsoft.json\\13.0.1-beta1\\newtonsoft.json.13.0.1-beta1.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\serilog.extensions.hosting\\4.0.0\\serilog.extensions.hosting.4.0.0.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\serilog.extensions.logging\\3.0.1\\serilog.extensions.logging.3.0.1.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\serilog.sinks.console\\4.0.0-dev-00839\\serilog.sinks.console.4.0.0-dev-00839.nupkg.sha512",
+    "C:\\Users\\deqqu\\.nuget\\packages\\serilog.sinks.file\\5.0.0-dev-00909\\serilog.sinks.file.5.0.0-dev-00909.nupkg.sha512"
+  ],
   "logs": []
 }

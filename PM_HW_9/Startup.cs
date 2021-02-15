@@ -7,18 +7,33 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using PM_HW_9.Services;
+using PM_HW_9.Services.Interfaces;
+using Serilog;
+using Serilog.Events;
 
 namespace PM_HW_9
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ISettings, Settings>();
+            services.AddTransient<IPrimeAlgorithm, PrimeAlgorithm>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /*public void ConfigureLogging(ILoggingBuilder loggingBuilder)
+        {
+            loggingBuilder.ClearProviders();
+            loggingBuilder.SetMinimumLevel(LogLevel.Trace);
+            loggingBuilder.AddSerilog(new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File("app.log")
+                .CreateLogger());
+            
+        }*/
+        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -30,7 +45,10 @@ namespace PM_HW_9
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context => { await context.Response.WriteAsync("Hello World!"); });
+                endpoints.MapGet("/", async context =>
+                {
+                    await context.Response.WriteAsync("PM_HW_9, Web service <<Prime Numbers>>\n Volokhovych Ihor ");
+                });
             });
         }
     }
