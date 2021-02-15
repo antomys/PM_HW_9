@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 using PM_HW_9.Exceptions;
 using PM_HW_9.Services.Interfaces;
 
@@ -8,13 +12,31 @@ namespace PM_HW_9.Services
 {
     public class PrimeAlgorithm : IPrimeAlgorithm
     {
-        private ISettings _settings;
+        private readonly ILogger<PrimeAlgorithm> _logger;
+        private readonly ISettings _settings;
 
-        public void GetSettings(ISettings settings)
+        public PrimeAlgorithm(
+            ILogger<PrimeAlgorithm> logger,
+            ISettings settings)
         {
+            _logger = logger;
             _settings = settings;
         }
 
+        public async Task<Result> GetPrimes()
+        {
+            //Put here. To split.
+            await using var fs = new FileStream("output.json", FileMode.OpenOrCreate);
+            var task = await FindPrimes();
+            await JsonSerializer.SerializeAsync<Result>(fs, task);
+                
+            Console.WriteLine("Data has been saved to file");
+            
+            //todo: add something fancy. Logger for example.
+            return task;
+        }
+        
+        
         public async Task<Result> FindPrimes()
         {
             return await Task.Run(() =>

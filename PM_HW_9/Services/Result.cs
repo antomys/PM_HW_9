@@ -1,8 +1,7 @@
 ﻿namespace PM_HW_9.Services
 {
     using System.Collections.Generic;
-    using Newtonsoft.Json;
-
+    using System.Text.Json.Serialization;
     /// <summary>
     /// This class takes bool Success, string Error, string Duration, and List of int Primes
     /// </summary>
@@ -13,25 +12,25 @@
         /// <summary>
         /// boolean Success
         /// </summary>
-        [JsonProperty("success")]
+        [JsonPropertyName("success")]
         public bool Success { get; init; }
         
         /// <summary>
         /// string Error
         /// </summary>
-        [JsonProperty("error")]
+        [JsonPropertyName("error")]
         public string Error { get; init; }
         
         /// <summary>
         /// string Duration
         /// </summary>
-        [JsonProperty("duration")]
+        [JsonPropertyName("duration")]
         public string Duration { get; init; }
         
         /// <summary>
         /// List of int Primes
         /// </summary>
-        [JsonProperty("primes")]
+        [JsonPropertyName("primes")]
         public List<int> Primes { get; init; }
     }
 }
