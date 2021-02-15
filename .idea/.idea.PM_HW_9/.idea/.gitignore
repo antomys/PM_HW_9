@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.PM_HW_9.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\deqqu\RiderProjects\PM_HW_9\.idea\.idea.PM_HW_9\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
