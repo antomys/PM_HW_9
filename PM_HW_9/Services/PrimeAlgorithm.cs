@@ -35,12 +35,14 @@ namespace PM_HW_9.Services
             };
 
             //Dumb check if file exists to not append text
-            if (File.Exists(FileName))
-                File.Delete(FileName);
-            _logger.LogInformation($"File created successfully");
+            /*if (File.Exists(FileName))
+                File.Delete(FileName);*/
+            
+            //todo: change writing method
             
             //Put here. To split.
-            await using var fs = new FileStream(FileName, FileMode.OpenOrCreate);
+            await using var fs = new FileStream(FileName, FileMode.Append);
+            _logger.LogInformation($"File created successfully");
             var task = await FindPrimes();
 
             /*if (task is null)

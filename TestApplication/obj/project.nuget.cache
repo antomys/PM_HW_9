@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "73CvHps/GoN3BeQWQc62CAyvHXesRqREVNnjTEiUgKm3h4+3EtPb60TXvrhuzKHPl5D+fQWjNlCXg2ah+QJY5w==",
+  "dgSpecHash": "qTy5ARZPxYkPbkZIEiHJpA/dGNmlwgVKG1j9hu2JJEvH9Lo0Hc6GZ+3NGlWrM1t5AJysplxYYFid8c0Y3jj5KA==",
   "success": true,
   "projectFilePath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\TestApplication\\TestApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\deqqu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

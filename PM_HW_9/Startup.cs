@@ -87,18 +87,27 @@ namespace PM_HW_9
 
                         if (result.Primes is null)
                         {
-                            await context.Response.WriteAsync($"{(int) HttpStatusCode.BadRequest}: {result.Error}");
-                            //context.Response.StatusCode = (int) HttpStatusCode.BadRequest;
+                           // await context.Response.WriteAsync($"{(int) HttpStatusCode.BadRequest}: {result.Error}");
+                           //await context.Response.WriteAsync(HttpStatusCode.BadRequest,{result.er})
+                           
+                           context.Response.StatusCode = (int) HttpStatusCode.BadRequest;
+                            await context.Response.WriteAsync($"{result.Error}");
                         }
                         else
                         {
-                            await context.Response.WriteAsync($"{(int) HttpStatusCode.OK}: \"{string.Join(',',result.Primes)}\"");
-                            //context.Response.StatusCode = (int) HttpStatusCode.OK;
+                            
+                            //todo: change
+                            //await context.Response.WriteAsync($"{(int) HttpStatusCode.OK}: \"{string.Join(',',result.Primes)}\"");
+                            context.Response.StatusCode = (int) HttpStatusCode.OK;
+                            await context.Response.WriteAsync($"{string.Join(',',result.Primes)}");
+                            //context.Response.Body = $"{string.Join(',',result.Primes)";
+                            
                         }
                     }
                     else
                     {
-                        await context.Response.WriteAsync($"{(int) HttpStatusCode.BadRequest}: Unable to parse parameters");
+                        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                        await context.Response.WriteAsync("Unable to parse parameters");
                         //context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                     }
                 });
