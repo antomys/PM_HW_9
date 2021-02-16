@@ -24,8 +24,9 @@ namespace PM_HW_9.Services
             _settings = settings;
         }
 
-        public async Task<bool> GetPrimes()
+        public async Task<Result> GetPrimes()
         {
+            _logger.LogInformation($"Got parameters from request: [{_settings.PrimeFrom};{_settings.PrimeTo}]");
             //options to write in a human friendly format
             var option = new JsonSerializerOptions
             {
@@ -33,33 +34,34 @@ namespace PM_HW_9.Services
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             };
 
-            //Dumb check if file exists to not overwrite
+            //Dumb check if file exists to not append text
             if (File.Exists(FileName))
                 File.Delete(FileName);
+            _logger.LogInformation($"File created successfully");
             
             //Put here. To split.
             await using var fs = new FileStream(FileName, FileMode.OpenOrCreate);
             var task = await FindPrimes();
 
-            if (task is null)
+            /*if (task is null)
             {
                 _logger.LogError($"Error. Task is null");
-                return false;
-            }
+                return null;
+            }*/
             
             await JsonSerializer.SerializeAsync(fs, task, option);
                 
-            Console.WriteLine("Data has been saved to file");
+            _logger.LogInformation($"Data has been saved to file {FileName}. Method GetPrimes in class PrimeAlgorithm.cs");
             
             //todo: add something fancy. Logger for example.
             
-            _logger.LogTrace($"File created successfully");
-            return true;
+            return task;
 
         }
 
         public Task<bool> IsPrime(int number)
         {
+            _logger.LogInformation($"Got parameters from request: [{number}]");
             if (number < 2)
             {
                 _logger.LogError($"Exception. Number {number} is less than 2");
@@ -70,6 +72,8 @@ namespace PM_HW_9.Services
             var isPrime =
                 Enumerable.Range(2, (int)Math.Sqrt(number) - 1)
                     .All(divisor => number % divisor != 0);
+            
+            _logger.LogInformation($"Algorithm passed. Number {number} is prime? {isPrime}");
             
             return Task.FromResult(isPrime);
         }
@@ -84,7 +88,10 @@ namespace PM_HW_9.Services
                 
                 try
                 {
-                    if (_settings.PrimeFrom <= 0 || _settings.PrimeTo <= 0)
+                    if (_settings.PrimeFrom == 0)
+                        _settings.PrimeFrom = 1;
+                    
+                    if (_settings.PrimeFrom < 0 || _settings.PrimeTo <= 0)
                     {
                         throw new ArgumentOutOfRange($"Out of range exception at Prime" +
                                                      $"\nAlgorithm method. Line 28");
@@ -113,7 +120,7 @@ namespace PM_HW_9.Services
                     var elapsedTime = DateTime.Now.Subtract(time).ToString();
 
                     //todo: add logger
-                    _logger.LogInformation("Successfully made everything. Creating new object");
+                    _logger.LogInformation("Successfully made everything. Creating new Result object");
                     
                     return new Result
                     {
@@ -128,7 +135,13 @@ namespace PM_HW_9.Services
                 {
                     _logger.LogWarning(exception.Message);
                     //todo: add logger
-                    return null;
+                    return new Result
+                    {
+                        Success = false,
+                        Error = exception.Message,
+                        Duration = string.Empty,
+                        Primes = null
+                    };
                 }
             });
         }

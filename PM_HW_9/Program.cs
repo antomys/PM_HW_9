@@ -24,7 +24,7 @@ namespace PM_HW_9
                 .ConfigureLogging(loggingBuilder =>
                 {
                     loggingBuilder.ClearProviders();
-                    loggingBuilder.SetMinimumLevel(LogLevel.Trace);
+                    loggingBuilder.SetMinimumLevel(LogLevel.Information);
                     loggingBuilder.AddSerilog(new LoggerConfiguration()
                         .WriteTo.Console()
                         .WriteTo.File("app.log")

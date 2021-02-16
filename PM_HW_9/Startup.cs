@@ -13,6 +13,7 @@ using PM_HW_9.Services;
 using PM_HW_9.Services.Interfaces;
 using Serilog;
 using Serilog.Events;
+using ILogger = Serilog.ILogger;
 
 namespace PM_HW_9
 {
@@ -22,6 +23,7 @@ namespace PM_HW_9
         {
             services.AddSingleton<ISettings, Settings>();
             services.AddTransient<IPrimeAlgorithm, PrimeAlgorithm>();
+            //services.AddSingleton<ILogger<IPrimeAlgorithm>>();
         }
         
        
@@ -58,9 +60,9 @@ namespace PM_HW_9
                 {
                     var service 
                         = context.RequestServices.GetRequiredService<IPrimeAlgorithm>();
-                    
                     var settings 
                         = context.RequestServices.GetRequiredService<ISettings>();
+                    
                     
                     var inputPrimeFrom = context.Request.Query["from"].FirstOrDefault();
                     var inputPrimeTo = context.Request.Query["to"].FirstOrDefault();
@@ -81,13 +83,23 @@ namespace PM_HW_9
                         {
                             context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                         }*/
-                        context.Response.StatusCode = await service.GetPrimes()
-                            ? context.Response.StatusCode = (int)HttpStatusCode.OK
-                            : context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                        var result = await service.GetPrimes();
+
+                        if (result.Primes is null)
+                        {
+                            await context.Response.WriteAsync($"{(int) HttpStatusCode.BadRequest}: {result.Error}");
+                            //context.Response.StatusCode = (int) HttpStatusCode.BadRequest;
+                        }
+                        else
+                        {
+                            await context.Response.WriteAsync($"{(int) HttpStatusCode.OK}: \"{string.Join(',',result.Primes)}\"");
+                            //context.Response.StatusCode = (int) HttpStatusCode.OK;
+                        }
                     }
                     else
                     {
-                        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                        await context.Response.WriteAsync($"{(int) HttpStatusCode.BadRequest}: Unable to parse parameters");
+                        //context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                     }
                 });
             });

@@ -5,7 +5,7 @@ namespace PM_HW_9.Services.Interfaces
     public interface IPrimeAlgorithm
     {
         Task<Result> FindPrimes();
-        Task<bool> GetPrimes();
+        Task<Result> GetPrimes();
 
         Task<bool> IsPrime(int number);
     }
