@@ -1,0 +1,757 @@
+2021-02-15 22:22:56.972 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 22:22:57.013 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 22:22:57.016 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 22:22:57.017 +02:00 [INF] Hosting environment: Development
+2021-02-15 22:22:57.019 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 22:22:57.707 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:22:57.785 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:22:57.800 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:22:57.811 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 112.9915ms
+2021-02-15 22:30:24.639 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 22:30:24.679 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 22:30:24.682 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 22:30:24.686 +02:00 [INF] Hosting environment: Development
+2021-02-15 22:30:24.696 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 22:30:25.263 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:30:25.408 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:30:25.437 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:30:25.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 230.2250ms
+2021-02-15 22:30:38.881 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 22:30:38.946 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 22:30:38.949 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 22:30:38.951 +02:00 [INF] Hosting environment: Development
+2021-02-15 22:30:38.955 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 22:30:39.597 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:30:39.702 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:30:39.718 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:30:39.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 151.3667ms
+2021-02-15 22:30:44.195 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:30:44.200 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:30:44.204 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:30:44.207 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 11.9883ms
+2021-02-15 22:30:46.070 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:30:46.073 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:30:46.076 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:30:46.079 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 9.0178ms
+2021-02-15 22:31:10.744 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:31:10.746 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:31:10.749 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:31:10.753 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 8.7423ms
+2021-02-15 22:31:25.274 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/number=2 - -
+2021-02-15 22:31:25.280 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:31:25.283 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:31:25.286 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/number=2 - - - 405 0 - 12.4812ms
+2021-02-15 22:31:29.961 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?number=2 - -
+2021-02-15 22:31:29.964 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?number=2 - - - 404 0 - 2.6727ms
+2021-02-15 22:32:15.923 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 22:32:15.989 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 22:32:19.232 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 22:32:19.248 +02:00 [INF] Hosting environment: Development
+2021-02-15 22:32:19.250 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 22:32:41.318 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 22:32:41.511 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 22:32:41.515 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 22:32:41.522 +02:00 [INF] Hosting environment: Development
+2021-02-15 22:32:41.524 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 22:32:42.546 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:32:42.746 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:32:42.816 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:32:42.823 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:32:42.829 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:32:42.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 302.5610ms
+2021-02-15 22:32:42.914 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:32:42.943 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 119.6575ms
+2021-02-15 22:32:55.008 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:32:55.014 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:32:55.024 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:32:55.034 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 25.5548ms
+2021-02-15 22:33:17.311 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:33:17.313 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:17.316 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:17.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 7.9827ms
+2021-02-15 22:33:18.302 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:33:18.305 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:18.309 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:18.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 10.4442ms
+2021-02-15 22:33:19.061 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:33:19.064 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:19.067 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:19.071 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 9.6377ms
+2021-02-15 22:33:20.564 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:33:20.566 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:20.569 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-02-15 22:33:20.571 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 405 0 - 7.0437ms
+2021-02-15 22:33:31.146 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:33:31.149 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:33:31.153 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:33:31.156 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 11.0475ms
+2021-02-15 22:33:50.627 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 22:33:50.984 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 22:33:51.016 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 22:33:51.032 +02:00 [INF] Hosting environment: Development
+2021-02-15 22:33:51.156 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 22:33:51.623 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:33:51.799 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:33:51.866 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:33:51.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 273.0708ms
+2021-02-15 22:34:07.024 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:34:07.029 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:34:07.034 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:34:07.040 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 16.3949ms
+2021-02-15 22:34:10.404 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 22:34:10.408 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 22:34:10.412 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 22:34:10.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 13.3539ms
+2021-02-15 22:34:39.943 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:34:39.952 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:39.957 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:39.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 28.8825ms
+2021-02-15 22:34:41.562 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:34:41.566 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:41.569 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:41.573 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 11.4551ms
+2021-02-15 22:34:42.235 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:34:42.238 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:42.241 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:42.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 12.1992ms
+2021-02-15 22:34:42.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:34:42.939 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:42.944 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:42.948 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 11.7708ms
+2021-02-15 22:34:43.525 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:34:43.530 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:43.534 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:43.538 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 13.0756ms
+2021-02-15 22:34:45.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/444444 - -
+2021-02-15 22:34:45.793 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:45.798 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:34:45.801 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/444444 - - - 200 - - 11.6109ms
+2021-02-15 22:34:50.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2.1 - -
+2021-02-15 22:34:50.057 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2.1 - - - 404 0 - 8.0838ms
+2021-02-15 22:34:52.441 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2.1 - -
+2021-02-15 22:34:52.446 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2.1 - - - 404 0 - 4.6504ms
+2021-02-15 22:34:56.321 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsfgsdg - -
+2021-02-15 22:34:56.323 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsfgsdg - - - 404 0 - 2.6852ms
+2021-02-15 22:34:57.734 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsfgsdg - -
+2021-02-15 22:34:57.737 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsfgsdg - - - 404 0 - 3.3697ms
+2021-02-15 22:34:58.543 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsfgsdg - -
+2021-02-15 22:34:58.546 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsfgsdg - - - 404 0 - 2.9678ms
+2021-02-15 22:34:59.021 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsfgsdg - -
+2021-02-15 22:34:59.024 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsfgsdg - - - 404 0 - 2.7536ms
+2021-02-15 22:34:59.469 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsfgsdg - -
+2021-02-15 22:34:59.471 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsfgsdg - - - 404 0 - 2.7018ms
+2021-02-15 22:34:59.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsfgsdg - -
+2021-02-15 22:34:59.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsfgsdg - - - 404 0 - 3.1638ms
+2021-02-15 22:35:02.217 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:35:02.220 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:02.224 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:02.229 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 11.5935ms
+2021-02-15 22:35:12.373 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:35:12.379 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:12.385 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:12.390 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 16.1272ms
+2021-02-15 22:35:13.052 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:35:13.056 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:13.062 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:13.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 13.6659ms
+2021-02-15 22:35:13.644 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:35:13.648 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:13.653 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:13.656 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 12.0141ms
+2021-02-15 22:35:14.147 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 22:35:14.151 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:14.156 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 22:35:14.161 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 - - 13.7772ms
+2021-02-15 22:35:16.228 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/ - -
+2021-02-15 22:35:16.231 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/ - - - 404 0 - 3.4765ms
+2021-02-15 22:35:20.125 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsgfdgh - -
+2021-02-15 22:35:20.129 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsgfdgh - - - 404 0 - 4.1485ms
+2021-02-15 22:35:21.839 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/dsgfdgh - -
+2021-02-15 22:35:21.844 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/dsgfdgh - - - 404 0 - 4.7691ms
+2021-02-15 23:42:04.715 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 23:42:04.756 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 23:42:04.758 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 23:42:04.760 +02:00 [INF] Hosting environment: Development
+2021-02-15 23:42:04.761 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 23:42:05.593 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 23:42:05.704 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 23:42:05.717 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 23:42:05.730 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 144.2886ms
+2021-02-15 23:42:36.554 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 23:42:36.614 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 23:42:36.617 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 23:42:36.619 +02:00 [INF] Hosting environment: Development
+2021-02-15 23:42:36.621 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 23:42:37.961 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 23:42:38.141 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 23:42:38.207 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 23:42:38.254 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 271.4479ms
+2021-02-15 23:42:50.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 23:42:50.327 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:43:17.774 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:43:17.783 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 0 - 27465.8847ms
+2021-02-15 23:43:31.283 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/1 - -
+2021-02-15 23:43:31.286 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:43:38.611 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:43:38.614 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/1 - - - 200 0 - 7331.1417ms
+2021-02-15 23:43:42.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/0 - -
+2021-02-15 23:43:42.333 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:44:48.492 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 23:44:48.555 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 23:44:48.559 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 23:44:48.561 +02:00 [INF] Hosting environment: Development
+2021-02-15 23:44:48.563 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-15 23:44:50.024 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-15 23:44:50.195 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-15 23:44:50.268 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-15 23:44:50.317 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 271.3547ms
+2021-02-15 23:44:57.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/1 - -
+2021-02-15 23:44:57.821 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:45:21.921 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:45:21.942 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/1 - - - 404 0 - 24130.4128ms
+2021-02-15 23:45:31.202 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-15 23:45:31.205 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:45:42.233 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-15 23:45:42.239 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 0 - 11036.7269ms
+2021-02-16 00:04:10.462 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:04:10.522 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:04:10.525 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:04:10.527 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:04:10.529 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:04:11.609 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:04:11.785 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:04:11.866 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:04:11.920 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 302.1528ms
+2021-02-16 00:04:39.544 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes?from=10&to=20 - -
+2021-02-16 00:04:39.564 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:07:30.212 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:07:30.263 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:07:30.265 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:07:30.267 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:07:30.269 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:07:31.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:07:31.342 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:07:31.360 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:07:31.373 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 171.4959ms
+2021-02-16 00:07:43.759 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:07:43.763 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:07:45.763 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:07:45.772 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - - - 200 0 - 2013.1619ms
+2021-02-16 00:09:19.040 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:09:19.085 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:09:19.087 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:09:19.088 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:09:19.090 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:09:19.802 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:09:19.916 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:09:19.932 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:09:19.946 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 183.9326ms
+2021-02-16 00:09:24.786 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:09:24.789 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:09:26.721 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:09:26.730 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - - - 200 0 - 1944.1322ms
+2021-02-16 00:09:37.553 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=dsfg&to=100000 - -
+2021-02-16 00:09:37.557 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:09:37.566 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:09:37.572 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=dsfg&to=100000 - - - 200 0 - 19.6502ms
+2021-02-16 00:13:26.898 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:13:26.966 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:13:26.969 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:13:26.971 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:13:26.974 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:13:28.347 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:13:28.515 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:13:28.586 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:13:28.635 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 268.8708ms
+2021-02-16 00:13:34.423 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:13:34.428 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:14:57.053 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:14:57.665 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:14:57.676 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:14:57.768 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:14:57.807 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:14:58.257 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:14:58.455 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:14:58.528 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:14:58.566 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 294.4401ms
+2021-02-16 00:15:02.491 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:15:02.497 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:15:18.977 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:15:19.790 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - - - 200 0 - 17298.1564ms
+2021-02-16 00:15:53.172 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=gfsdgsdfg&to=100000 - -
+2021-02-16 00:15:53.177 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:16:06.317 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:16:06.323 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=gfsdgsdfg&to=100000 - - - 400 0 - 13150.8693ms
+2021-02-16 00:16:17.764 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-4&to=3 - -
+2021-02-16 00:16:17.766 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:17:35.497 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:17:35.507 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 40
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 48
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 78
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 00:17:35.654 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-4&to=3 - - - 500 - text/html;+charset=utf-8 77890.0591ms
+2021-02-16 00:17:58.956 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:17:59.029 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:17:59.034 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:17:59.038 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:17:59.041 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:18:00.167 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:18:00.357 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:18:00.422 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:18:00.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 279.8720ms
+2021-02-16 00:18:03.320 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-4&to=3 - -
+2021-02-16 00:18:03.326 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:18:35.639 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:18:35.706 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:18:35.711 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:18:35.715 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:18:35.720 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:18:36.733 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-4&to=3 - -
+2021-02-16 00:18:36.733 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:18:36.927 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:18:36.927 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:18:45.015 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-4&to=3 - -
+2021-02-16 00:18:45.015 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:18:45.020 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:18:48.137 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 8304.4115ms
+2021-02-16 00:19:37.911 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:19:37.968 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:19:37.972 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:19:37.978 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:19:37.980 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:19:39.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:19:39.272 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:19:39.337 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:19:39.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 263.6784ms
+2021-02-16 00:19:47.847 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:19:47.854 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:20:00.454 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:20:00.466 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - - - 200 0 - 12617.6776ms
+2021-02-16 00:20:09.959 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - -
+2021-02-16 00:20:09.961 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:20:24.778 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:20:24.782 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - - - 200 0 - 14823.4770ms
+2021-02-16 00:20:50.751 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - -
+2021-02-16 00:20:50.755 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:21:24.467 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:21:24.487 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - - - 200 0 - 33735.4797ms
+2021-02-16 00:21:55.312 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - -
+2021-02-16 00:21:55.317 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:22:10.134 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:22:10.138 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - - - 200 0 - 14826.6322ms
+2021-02-16 00:22:34.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - -
+2021-02-16 00:22:34.986 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:22:49.435 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:22:49.454 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - - - 400 0 - 14473.1098ms
+2021-02-16 00:23:03.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - -
+2021-02-16 00:23:03.489 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:23:48.360 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:23:48.399 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:23:48.402 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:23:48.404 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:23:48.406 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:23:49.039 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:23:49.126 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:23:49.136 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:23:49.197 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 163.2853ms
+2021-02-16 00:24:42.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - -
+2021-02-16 00:24:42.320 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:24:42.343 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:24:42.349 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - - - 400 0 - 31.8818ms
+2021-02-16 00:24:43.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - -
+2021-02-16 00:24:43.083 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:24:43.090 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:24:43.098 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-5212&to=0 - - - 400 0 - 17.6974ms
+2021-02-16 00:24:47.379 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=522&to=0 - -
+2021-02-16 00:24:47.382 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:24:47.386 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:24:47.389 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=522&to=0 - - - 400 0 - 10.1667ms
+2021-02-16 00:24:52.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=ggg&to=55 - -
+2021-02-16 00:24:52.078 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:24:52.081 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:24:52.085 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=ggg&to=55 - - - 400 0 - 11.3672ms
+2021-02-16 00:24:57.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-4&to=55 - -
+2021-02-16 00:24:57.078 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:24:57.081 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:24:57.085 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-4&to=55 - - - 400 0 - 11.0779ms
+2021-02-16 00:25:03.267 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=55 - -
+2021-02-16 00:25:03.269 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:25:03.273 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:25:03.278 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=55 - - - 400 0 - 11.4446ms
+2021-02-16 00:25:05.560 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=55 - -
+2021-02-16 00:25:05.563 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:25:05.567 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:25:05.571 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=55 - - - 400 0 - 10.3681ms
+2021-02-16 00:25:08.883 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - -
+2021-02-16 00:25:08.885 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:25:08.976 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:25:08.981 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - - - 200 0 - 98.4883ms
+2021-02-16 00:25:31.306 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=55 - -
+2021-02-16 00:25:31.309 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:25:31.314 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:25:31.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=55 - - - 400 0 - 11.8796ms
+2021-02-16 00:25:42.740 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:25:42.801 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:25:42.805 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:25:42.808 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:25:42.809 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:25:43.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:25:44.136 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:25:44.200 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:25:44.282 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 271.0035ms
+2021-02-16 00:25:56.269 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-16 00:25:56.280 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 00:27:31.450 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 00:27:31.460 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 0 - 95190.2160ms
+2021-02-16 00:30:08.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:30:08.882 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:30:34.578 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:30:34.583 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - - - 200 0 - 25703.5763ms
+2021-02-16 00:32:09.511 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=100000 - -
+2021-02-16 00:32:09.515 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:34:27.766 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:34:27.770 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=100000 - - - 400 0 - 138259.1326ms
+2021-02-16 00:34:41.629 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=100000 - -
+2021-02-16 00:34:41.632 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:46:52.539 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:46:53.440 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:46:53.449 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:46:53.452 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:46:53.455 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:46:53.873 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:46:54.103 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:46:54.223 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:46:54.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 384.3000ms
+2021-02-16 00:47:03.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:47:03.957 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:47:05.647 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 00:48:07.133 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:48:07.565 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:48:07.582 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:48:07.597 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:48:07.640 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:48:08.247 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:48:08.480 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:48:08.560 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:48:08.638 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 349.0230ms
+2021-02-16 00:48:36.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:48:36.522 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:48:38.519 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 00:49:23.020 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:49:23.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - - - 200 0 - 46515.7823ms
+2021-02-16 00:49:28.833 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=1 - -
+2021-02-16 00:49:28.838 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:49:28.848 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 00:52:10.675 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:52:10.760 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:52:10.836 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:52:10.839 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:52:10.841 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:52:11.701 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:52:11.860 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:52:11.923 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:52:11.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 245.4275ms
+2021-02-16 00:52:50.435 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:52:50.440 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:52:52.364 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 00:53:01.138 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 00:53:01.140 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:53:24.264 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:57:07.417 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 00:57:07.480 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 00:57:07.485 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 00:57:07.487 +02:00 [INF] Hosting environment: Development
+2021-02-16 00:57:07.489 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 00:57:08.769 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 00:57:08.932 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 00:57:08.996 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 00:57:09.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 249.5073ms
+2021-02-16 00:57:15.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - -
+2021-02-16 00:57:15.189 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 00:57:15.258 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 00:58:19.081 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 00:58:19.095 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - - - 200 0 - 63910.6841ms
+2021-02-16 01:01:45.906 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 01:01:45.963 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 01:01:45.967 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 01:01:45.969 +02:00 [INF] Hosting environment: Development
+2021-02-16 01:01:45.971 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 01:01:47.061 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 01:01:47.225 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 01:01:47.289 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 01:01:47.321 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 250.3659ms
+2021-02-16 01:02:09.229 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - -
+2021-02-16 01:02:09.248 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 01:02:14.551 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 01:02:26.361 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 01:02:26.375 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - - - 200 0 - 17145.3553ms
+2021-02-16 14:10:54.580 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 14:10:54.808 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 14:10:54.898 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 14:10:55.422 +02:00 [INF] Hosting environment: Development
+2021-02-16 14:10:55.965 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 14:10:56.593 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 14:10:56.825 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 14:10:56.934 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 14:10:57.003 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 394.6643ms
+2021-02-16 14:10:57.721 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2021-02-16 14:10:57.729 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 404 0 - 6.5537ms
+2021-02-16 14:11:18.945 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 14:11:18.949 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:14:58.112 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 14:14:58.206 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 14:14:58.270 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 14:14:58.298 +02:00 [INF] Hosting environment: Development
+2021-02-16 14:14:58.300 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 14:14:59.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 14:14:59.464 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 14:14:59.531 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 14:14:59.570 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 292.2124ms
+2021-02-16 14:15:17.600 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - -
+2021-02-16 14:15:17.605 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:15:28.674 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 14:16:29.661 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:16:29.670 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 96
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 14:16:29.702 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2021-02-16 14:16:29.717 +02:00 [ERR] Connection id "0HM6IEHT4LKRO", Request id "0HM6IEHT4LKRO:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 96
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-02-16 14:16:29.813 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - - - 200 - - 72212.9481ms
+2021-02-16 14:16:45.168 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - -
+2021-02-16 14:16:45.173 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:16:47.342 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 14:17:38.992 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 14:17:39.057 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 14:17:39.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 14:17:39.066 +02:00 [INF] Hosting environment: Development
+2021-02-16 14:17:39.068 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 14:17:40.255 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 14:17:40.432 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 14:17:40.498 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 14:17:40.565 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 271.4339ms
+2021-02-16 14:17:50.887 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - -
+2021-02-16 14:17:50.893 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:18:05.322 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 14:18:26.148 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:18:37.754 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=55 - - - 200 - - 46867.0408ms
+2021-02-16 14:19:25.139 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - -
+2021-02-16 14:19:25.144 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:19:36.395 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 14:20:09.103 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:20:09.115 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 14:20:09.138 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2021-02-16 14:20:09.149 +02:00 [ERR] Connection id "0HM6IEJD536EL", Request id "0HM6IEJD536EL:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-02-16 14:20:09.173 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - - - 200 - - 44034.5593ms
+2021-02-16 14:20:19.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - -
+2021-02-16 14:20:19.099 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:20:19.147 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 14:20:19.239 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:20:19.245 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 14:20:19.258 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2021-02-16 14:20:19.262 +02:00 [ERR] Connection id "0HM6IEJD536EL", Request id "0HM6IEJD536EL:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-02-16 14:20:19.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - - - 200 - - 184.7524ms
+2021-02-16 14:20:20.142 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - -
+2021-02-16 14:20:20.146 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:20:20.199 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 14:20:20.264 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:20:20.267 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 14:20:20.278 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2021-02-16 14:20:20.282 +02:00 [ERR] Connection id "0HM6IEJD536EL", Request id "0HM6IEJD536EL:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-02-16 14:20:20.299 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - - - 200 - - 156.6507ms
+2021-02-16 14:20:49.614 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - -
+2021-02-16 14:20:49.619 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:20:51.270 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 14:21:44.544 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:21:44.567 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - - - 200 - - 54953.2996ms
+2021-02-16 14:21:47.263 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - -
+2021-02-16 14:21:47.268 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:21:49.082 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 14:21:57.557 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:21:57.561 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=2 - - - 200 - - 10297.9996ms
+2021-02-16 14:22:01.602 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=1 - -
+2021-02-16 14:22:01.605 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:22:03.247 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 14:22:09.956 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:22:09.961 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=1 - - - 200 - - 8358.4166ms
+2021-02-16 14:22:40.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-400&to=1 - -
+2021-02-16 14:22:40.716 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:22:43.314 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 14:23:18.629 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 14:23:18.690 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 14:23:18.695 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 14:23:18.697 +02:00 [INF] Hosting environment: Development
+2021-02-16 14:23:18.700 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 14:23:20.040 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 14:23:20.330 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 14:23:20.420 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 14:23:20.490 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 421.1986ms
+2021-02-16 14:23:22.952 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-400&to=1 - -
+2021-02-16 14:23:22.958 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:23:26.749 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 14:23:40.886 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:23:40.907 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-400&to=1 - - - 200 - - 17954.8281ms
+2021-02-16 14:23:58.880 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=&to= - -
+2021-02-16 14:23:58.885 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:23:58.892 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:23:58.903 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=&to= - - - 200 - - 23.4842ms
+2021-02-16 14:24:01.355 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=&to= - -
+2021-02-16 14:24:01.360 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:24:01.366 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:24:01.372 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=&to= - - - 200 - - 16.8842ms
+2021-02-16 14:24:11.648 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=a&to=b - -
+2021-02-16 14:24:11.653 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:24:11.658 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:24:11.665 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=a&to=b - - - 200 - - 17.7025ms
+2021-02-16 14:24:18.220 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0x1&to=0x10b - -
+2021-02-16 14:24:18.223 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:24:18.229 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:24:18.233 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0x1&to=0x10b - - - 200 - - 13.2929ms
+2021-02-16 14:24:25.356 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-555&to=2 - -
+2021-02-16 14:24:25.360 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:24:30.374 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 14:24:34.864 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:24:34.881 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-555&to=2 - - - 200 - - 9525.2951ms
+2021-02-16 14:24:44.817 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=4000000000 - -
+2021-02-16 14:24:44.822 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:24:44.825 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:24:44.830 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=4000000000 - - - 200 - - 12.1022ms
+2021-02-16 14:24:47.981 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=0&to=400000 - -
+2021-02-16 14:24:47.986 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:25:16.904 +02:00 [INF] Successfully made everything. Creating new object
+2021-02-16 14:25:17.008 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:25:17.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=0&to=400000 - - - 200 - - 29057.8865ms
+2021-02-16 14:25:26.409 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-16 14:25:26.417 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:25:26.427 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:25:26.434 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 0 - 24.8576ms
+2021-02-16 14:25:28.920 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/3 - -
+2021-02-16 14:25:28.925 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:25:28.929 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:25:28.935 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/3 - - - 200 0 - 14.7400ms
+2021-02-16 14:25:31.058 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/-2 - -
+2021-02-16 14:25:31.062 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:25:31.068 +02:00 [ERR] Exception. Number -2 is less than 2
+2021-02-16 14:25:31.072 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:25:31.075 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/-2 - - - 404 0 - 16.7584ms
+2021-02-16 14:25:35.315 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/fg - -
+2021-02-16 14:25:35.327 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/fg - - - 404 0 - 11.7581ms
+2021-02-16 14:27:28.289 +02:00 [INF] Now listening on: https://localhost:5001
+2021-02-16 14:27:28.349 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 14:27:28.352 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 14:27:28.354 +02:00 [INF] Hosting environment: Development
+2021-02-16 14:27:28.356 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 14:27:29.123 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-02-16 14:27:29.230 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 14:27:29.247 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 14:27:29.257 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - - 140.7721ms
+2021-02-16 14:27:42.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/2 - -
+2021-02-16 14:27:42.977 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:27:42.988 +02:00 [INF] Got parameters from request: [2]
+2021-02-16 14:27:42.996 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-16 14:27:42.999 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 14:27:43.008 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/2 - - - 200 0 - 35.4451ms
+2021-02-16 14:27:54.456 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - -
+2021-02-16 14:27:54.458 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:27:54.473 +02:00 [INF] Got parameters from request: [1;100000]
+2021-02-16 14:27:54.480 +02:00 [INF] File created successfully
+2021-02-16 14:27:56.382 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 14:27:56.517 +02:00 [INF] Data has been saved to file output.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 14:27:56.541 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:27:56.551 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=1&to=100000 - - - 200 - - 2095.0269ms
+2021-02-16 14:28:22.767 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/primes/?from=-555&to=100000 - -
+2021-02-16 14:28:22.770 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 14:28:22.773 +02:00 [INF] Got parameters from request: [-555;100000]
+2021-02-16 14:28:22.776 +02:00 [INF] File created successfully
+2021-02-16 14:28:22.783 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 14:28:22.793 +02:00 [INF] Data has been saved to file output.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 14:28:22.800 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 14:28:22.805 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/primes/?from=-555&to=100000 - - - 200 - - 37.7410ms
