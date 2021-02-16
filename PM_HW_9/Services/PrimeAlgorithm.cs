@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using PM_HW_9.Exceptions;
@@ -14,7 +12,6 @@ namespace PM_HW_9.Services
     {
         private readonly ILogger<PrimeAlgorithm> _logger;
         private readonly ISettings _settings;
-        private const string FileName = "output.json";
 
         public PrimeAlgorithm(
             ILogger<PrimeAlgorithm> logger,
@@ -23,44 +20,34 @@ namespace PM_HW_9.Services
             _logger = logger;
             _settings = settings;
         }
-
+        
+        /// <summary>
+        /// Returns async list of primes found in a range
+        /// </summary>
+        /// <returns>List of primes</returns>
         public async Task<Result> GetPrimes()
         {
             _logger.LogInformation($"Got parameters from request: [{_settings.PrimeFrom};{_settings.PrimeTo}]");
-            //options to write in a human friendly format
-            var option = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-            };
-
-            //Dumb check if file exists to not append text
-            /*if (File.Exists(FileName))
-                File.Delete(FileName);*/
             
-            //todo: change writing method
-            
-            //Put here. To split.
-            await using var fs = new FileStream(FileName, FileMode.Append);
-            _logger.LogInformation($"File created successfully");
             var task = await FindPrimes();
-
-            /*if (task is null)
+            
+            if (task is null)
             {
                 _logger.LogError($"Error. Task is null");
                 return null;
-            }*/
-            
-            await JsonSerializer.SerializeAsync(fs, task, option);
-                
-            _logger.LogInformation($"Data has been saved to file {FileName}. Method GetPrimes in class PrimeAlgorithm.cs");
-            
-            //todo: add something fancy. Logger for example.
-            
+            }
+
+            _logger.LogInformation($"Method GetPrimes in class PrimeAlgorithm.cs Operated successfully");
+
             return task;
 
         }
 
+        /// <summary>
+        /// Checks if given number is a prime
+        /// </summary>
+        /// <param name="number">input number</param>
+        /// <returns>boolean</returns>
         public Task<bool> IsPrime(int number)
         {
             _logger.LogInformation($"Got parameters from request: [{number}]");
@@ -80,8 +67,13 @@ namespace PM_HW_9.Services
             return Task.FromResult(isPrime);
         }
 
-
-        public async Task<Result> FindPrimes()
+        /// <summary>
+        /// internal method to find primes
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="ArgumentOutOfRange"> If given range does not satisfy given algorithm</exception>
+        /// <exception cref="ArgumentNull">if file settings is null. OBSOLETE FROM NOW</exception>
+        private async Task<Result> FindPrimes()
         {
             return await Task.Run(() =>
             {
@@ -90,16 +82,17 @@ namespace PM_HW_9.Services
                 
                 try
                 {
-                    if (_settings.PrimeFrom == 0)
+                    if (_settings.PrimeFrom <= 0)
                         _settings.PrimeFrom = 1;
                     
-                    if (_settings.PrimeFrom < 0 || _settings.PrimeTo <= 0)
+                    if (_settings.PrimeFrom < 0 || _settings.PrimeTo <= 0
+                                                ||_settings.PrimeFrom > _settings.PrimeTo)
                     {
                         throw new ArgumentOutOfRange($"Out of range exception at Prime" +
                                                      $"\nAlgorithm method. Line 28");
                     }
 
-                    if (_settings == null)
+                    if (_settings == null )
                     {
                         throw new ArgumentNull($"This was null {_settings}");
                     }
@@ -121,7 +114,7 @@ namespace PM_HW_9.Services
 
                     var elapsedTime = DateTime.Now.Subtract(time).ToString();
 
-                    //todo: add logger
+                    
                     _logger.LogInformation("Successfully made everything. Creating new Result object");
                     
                     return new Result
@@ -136,7 +129,7 @@ namespace PM_HW_9.Services
                 catch (ArgumentOutOfRange exception)
                 {
                     _logger.LogWarning(exception.Message);
-                    //todo: add logger
+                    
                     return new Result
                     {
                         Success = false,

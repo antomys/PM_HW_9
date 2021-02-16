@@ -14,7 +14,7 @@ namespace TestApplication.Models
 
         public static Input Construct()
         {
-            var deserialized = JsonConvert.DeserializeObject<Input>(File.ReadAllText("connectionUrl.json"));  //I'm dumb. PARSE FILE.READALLTEXT NOT STRING FILENAME
+            var deserialized = JsonConvert.DeserializeObject<Input>(File.ReadAllText("connectionUrl.json"));  //I'm dumb. PARSE by File.ReadAllText NOT STRING FILENAME
  
             return deserialized;
         }
@@ -22,16 +22,142 @@ namespace TestApplication.Models
         public string LandingTest { get; set; }
         
         [JsonProperty("isprime")]
-        public Dictionary<string,bool> IsPrime { get; set; }
+        public Dictionary<string,HttpStatusCode> IsPrime { get; set; }
         
         [JsonProperty("getprimes")]
         public Dictionary<string,List<int>> GetPrimes { get; set; }
+       
+        #region Tests
+        public async Task TestLandingPage(HttpClient httpClient)
+        {
+            var result = false;
+            try
+            {
+                HttpResponseMessage responseMessage
+                    = await httpClient.GetAsync(new Uri(LandingTest));
+                responseMessage.EnsureSuccessStatusCode();
+                string responseBody = await responseMessage.Content.ReadAsStringAsync();
+
+                var expectedOutput = " PM_HW_9, Web service <<Prime Numbers>>\n Volokhovych Ihor ";
+
+                if (responseBody.Equals(expectedOutput))
+                {
+                    result = true;
+                }
+
+                Console.WriteLine($"Input URL: [{LandingTest}]\n" +
+                                  $"Expected: [{expectedOutput}]\n" +
+                                  $"Received: [{responseBody}]\n" +
+                                  $"Test passed: [{result.ToString()}]\n");
+                
+            }
+            
+            catch(HttpRequestException e)
+            {
+                Console.WriteLine("\nException Caught!");	
+                Console.WriteLine("Message :{0} ",e.Message);
+            }
+        }
+
+        public async Task TestIsPrime(HttpClient httpClient)
+        {
+            var tasks = IsPrime
+                .Select(pair => InternalTestIsPrime(httpClient, pair.Key, pair.Value));
+            
+            await Task.WhenAll(tasks);
+            
+
+        }
+
+        public async Task TestGetPrimes(HttpClient httpClient)
+        {
+            var tasks 
+                = await Task.Factory.StartNew(() => GetPrimes.Select(pair => InternalTestGetPrimes(httpClient, pair.Key, pair.Value)));
+
+            await Task.WhenAll(tasks);
+
+        }
+
+        #region PrivateTestMethods
+        private async Task InternalTestIsPrime(HttpClient httpClient, string key, HttpStatusCode value)
+        {
+            try
+            {
+                var responseMessage
+                    = await httpClient.GetAsync(new Uri(key));
+
+                if (responseMessage.StatusCode.Equals(value))
+                {
+                    Console.WriteLine($"Input URL: [{key}]\nExpected: [{value}]\n" +
+                                      $"Received: [{responseMessage.StatusCode}]\n" +
+                                      $"Test passed: [{value == responseMessage.StatusCode}]\n");
+                }
+                else
+                {
+                    Console.WriteLine($"Input URL: [{key}]\n" +
+                                      $"Expected: [{value}]\n" +
+                                      $"Received: [{responseMessage.StatusCode}]\n" +
+                                      $"Test passed: [{value == responseMessage.StatusCode}]\n");
+                }
+
+            }
+            
+            catch(HttpRequestException e)
+            {
+                Console.WriteLine("\nException Caught!");	
+                Console.WriteLine("Message :{0} ",e.Message);
+            }
+        }
+
+        private async Task InternalTestGetPrimes(HttpClient httpClient, string key, IReadOnlyCollection<int> value)
+        {
+            try
+            {
+                var responseMessage
+                    = await httpClient.GetAsync(new Uri(key));
+
+                var responseBody = await responseMessage.Content.ReadAsStringAsync();
+
+                if (responseMessage.StatusCode.Equals(HttpStatusCode.OK))
+                {
+                    var numbers = new List<int>();
+                    
+                    if(!string.IsNullOrEmpty(responseBody))
+                        numbers = responseBody.Split(',').Select(int.Parse).ToList();
+
+                    
+                    if (value.All(numbers.Contains) && value.Count == numbers.Count)
+                    {
+                        Console.WriteLine($"Input URL: [{key}]\nExpected: [{string.Join(",", value)}]\n" +
+                                          $"Received: [{responseBody}]\n" +
+                                          $"Test passed: [{true}]\n");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Input URL: [{key}]\nExpected Code:[{HttpStatusCode.BadRequest}]\n" +
+                                      $"Received:[{responseMessage.StatusCode}]\n" +
+                                      $"Test passed: [{responseMessage.StatusCode == HttpStatusCode.BadRequest}]\n");
+                }
+            }
+            
+            catch(HttpRequestException e)
+            {
+                Console.WriteLine("\nException Caught!");	
+                Console.WriteLine("Message :{0} ",e.Message);
+            }
+        }
+        #endregion
+        
+        #endregion
+
+        #region ObsoleteMethods
 
         [Obsolete("Was used just to make json config file")]
         public void CreateInput()
         {
             
-            IsPrime = new Dictionary<string, bool>();
+            IsPrime = new Dictionary<string, HttpStatusCode>();
             GetPrimes = new Dictionary<string, List<int>>();
             
             
@@ -43,12 +169,12 @@ namespace TestApplication.Models
             for (var j = 0; j < 5; j++)
             {
                 var url = Console.ReadLine() ?? throw new InvalidOperationException();
-                var isPrime = true;
+                var isPrime = HttpStatusCode.OK;
                 Console.WriteLine("Should it be prime?");
                 var input = Console.ReadLine();
                 if (string.IsNullOrEmpty(input))
                 {
-                    isPrime = false;
+                    isPrime = HttpStatusCode.NotFound;
                 }
                 IsPrime.Add(url,isPrime);
             }
@@ -73,118 +199,7 @@ namespace TestApplication.Models
                 JsonConvert.SerializeObject(this, Formatting.Indented));
         }
         
-        public async Task<bool> TestLandingPage(HttpClient httpClient)
-        {
-            var result = false;
-            try
-            {
-                HttpResponseMessage responseMessage
-                    = await httpClient.GetAsync(new Uri(LandingTest));
-                responseMessage.EnsureSuccessStatusCode();
-                string responseBody = await responseMessage.Content.ReadAsStringAsync();
 
-                var expectedOutput = " PM_HW_9, Web service <<Prime Numbers>>\n Volokhovych Ihor ";
-
-                if (responseBody.Equals(expectedOutput))
-                {
-                    result = true;
-                }
-
-                Console.WriteLine($" Input URL: [{LandingTest}]\nExpected: [{expectedOutput}]\nReceived: [{responseBody}]\nTest passed: [{result.ToString()}]");
-
-                return result;
-            }
-            
-            catch(HttpRequestException e)
-            {
-                Console.WriteLine("\nException Caught!");	
-                Console.WriteLine("Message :{0} ",e.Message);
-                return false;
-            }
-        }
-
-        public async Task TestIsPrime(HttpClient httpClient)
-        {
-            var tasks = IsPrime
-                .Select(pair => InternalTestIsPrime(httpClient, pair.Key, pair.Value));
-            
-            await Task.WhenAll(tasks);
-            
-
-        }
-
-        public async Task TestGetPrimes(HttpClient httpClient)
-        {
-            var tasks = GetPrimes
-                .Select(pair => InternalTestGetPrimes(httpClient, pair.Key, pair.Value));
-            
-            await Task.WhenAll(tasks);
-            
-        }
-
-        private async Task<bool> InternalTestIsPrime(HttpClient httpClient, string key, bool value)
-        {
-            var result = false;
-            try
-            {
-                HttpResponseMessage responseMessage
-                    = await httpClient.GetAsync(new Uri(key));
-                //responseMessage.EnsureSuccessStatusCode();
-                
-                //string responseBody = await responseMessage.Content.ReadAsStringAsync();
-                
-
-                if (responseMessage.StatusCode.Equals(HttpStatusCode.OK))
-                {
-                    result = true;
-                }
-
-                Console.WriteLine($" Input URL: [{key}]\nExpected: [{value}]\nReceived: [{responseMessage.StatusCode}]\nTest passed: [{result.ToString()}]");
-
-                return result;
-            }
-            
-            catch(HttpRequestException e)
-            {
-                Console.WriteLine("\nException Caught!");	
-                Console.WriteLine("Message :{0} ",e.Message);
-                return false;
-            }
-        }
-
-        private async Task<bool> InternalTestGetPrimes(HttpClient httpClient, string key, List<int> value)
-        {
-            var result = false;
-                try
-                {
-                    var responseMessage
-                        = await httpClient.GetAsync(new Uri(key));
-                    //responseMessage.EnsureSuccessStatusCode();
-                
-                    var responseBody = await responseMessage.Content.ReadAsStringAsync();
-
-                    if (responseMessage.StatusCode.Equals(HttpStatusCode.OK))
-                    {
-                        var numbers = responseBody.Split(',').Select(int.Parse).ToList();
-
-                        if (value.All(numbers.Contains) && value.Count == numbers.Count)
-                        {
-                            result = true;
-                        }
-                    }
-
-                    Console.WriteLine($" Input URL: [{key}]\nExpected: [{string.Join(",", value)}]\nReceived: [{responseBody}]\nTest passed: [{result.ToString()}]");
-
-                    return result;
-                }
-            
-                catch(HttpRequestException e)
-                {
-                    Console.WriteLine("\nException Caught!");	
-                    Console.WriteLine("Message :{0} ",e.Message);
-                    return false;
-                }
-                
-        }
+        #endregion
     }
 }

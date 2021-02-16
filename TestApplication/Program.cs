@@ -5,17 +5,19 @@ using TestApplication.Models;
 
 namespace TestApplication
 {
-    class Program
+    internal static class Program
     {
-        private static readonly HttpClient Client = new HttpClient();
+        private static readonly HttpClient Client = new();
 
         private static async Task Main()
         {
             var input = Input.Construct();
-            //var input = new Input();
-            //input.CreateInput();
-            //await input.TestLandingPage(Client);
-            //await input.TestIsPrime(Client);
+
+            Console.WriteLine("*********************************************");
+            await input.TestLandingPage(Client);
+            Console.WriteLine("*********************************************");
+            await input.TestIsPrime(Client);
+            Console.WriteLine("*********************************************");
             await input.TestGetPrimes(Client);
         }
     }

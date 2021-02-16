@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace PM_HW_9.Exceptions
 {
     public class ArgumentNull : ArgumentOutOfRange

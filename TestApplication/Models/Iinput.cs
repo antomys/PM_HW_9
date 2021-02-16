@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Net;
 
 namespace TestApplication.Models
 {
@@ -7,7 +7,7 @@ namespace TestApplication.Models
     {
         string LandingTest { get; set; }
         
-        Dictionary<string,bool> IsPrime { get; set; }
+        Dictionary<string,HttpStatusCode> IsPrime { get; set; }
         
         Dictionary<string,List<int>> GetPrimes { get; set; }
     }

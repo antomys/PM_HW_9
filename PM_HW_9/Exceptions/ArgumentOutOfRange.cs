@@ -7,7 +7,7 @@ namespace PM_HW_9.Exceptions
         /// <summary>
         /// Constructor
         /// </summary>
-        public ArgumentOutOfRange()
+        protected ArgumentOutOfRange()
         {
         }
         

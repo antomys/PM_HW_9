@@ -1759,3 +1759,2074 @@ System.IO.IOException: The process cannot access the file 'C:\Users\deqqu\RiderP
 2021-02-16 17:47:40.996 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 500 - text/plain 103.8668ms
 2021-02-16 17:47:40.998 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
 2021-02-16 17:47:41.003 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 112.9674ms
+2021-02-16 18:15:15.802 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 18:15:16.067 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 18:15:16.235 +02:00 [INF] Hosting environment: Development
+2021-02-16 18:15:16.238 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 18:15:16.520 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 18:15:16.742 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 18:15:16.803 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 18:15:16.834 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 312.2029ms
+2021-02-16 18:16:50.960 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:16:50.964 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:16:57.310 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:17:05.301 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:17:05.303 +02:00 [INF] File created successfully
+2021-02-16 18:17:05.536 +02:00 [INF] Data has been saved to file output.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:17:18.695 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:17:18.706 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 27745.7413ms
+2021-02-16 18:17:28.357 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:17:28.362 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:17:35.019 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:17:35.024 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:17:35.031 +02:00 [INF] File created successfully
+2021-02-16 18:17:35.036 +02:00 [INF] Data has been saved to file output.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:17:35.039 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:17:35.046 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 6688.3802ms
+2021-02-16 18:17:38.173 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=100 - -
+2021-02-16 18:17:38.178 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:17:44.502 +02:00 [INF] Got parameters from request: [0;100]
+2021-02-16 18:17:44.507 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:17:44.511 +02:00 [INF] File created successfully
+2021-02-16 18:17:44.517 +02:00 [INF] Data has been saved to file output.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:17:44.520 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:17:44.525 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=100 - - - 200 - - 6351.4949ms
+2021-02-16 18:19:02.493 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:19:02.493 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:19:02.493 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:19:02.510 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:19:02.511 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:19:02.514 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:19:02.517 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:19:12.400 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:19:30.673 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:19:32.054 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:19:02.518 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:19:32.069 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:19:43.000 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 18:19:43.056 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 18:19:43.058 +02:00 [INF] Hosting environment: Development
+2021-02-16 18:19:43.060 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 18:19:43.635 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 18:19:43.729 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 18:19:43.743 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 18:19:43.749 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 120.9863ms
+2021-02-16 18:20:37.900 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:20:37.900 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:20:37.901 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:20:37.900 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:20:37.910 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.907 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.908 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.906 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.923 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.932 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 32.0905ms
+2021-02-16 18:20:37.938 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:20:37.940 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.941 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:20:37.941 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:20:37.941 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:20:37.944 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:20:37.957 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.957 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.957 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:20:37.968 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimesMain() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 55
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAllCore(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 32
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 86
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 18:20:37.968 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at System.IO.File.Delete(String path)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimesMain() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAllCore(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 32
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 86
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 18:20:37.968 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at System.IO.File.Delete(String path)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimesMain() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAllCore(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 32
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 86
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 18:20:38.032 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 500 - text/plain 132.1986ms
+2021-02-16 18:20:38.044 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 500 - text/plain 106.1529ms
+2021-02-16 18:20:38.058 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 500 - text/plain 157.7098ms
+2021-02-16 18:20:38.062 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:20:38.068 +02:00 [INF] File created successfully
+2021-02-16 18:20:38.155 +02:00 [INF] Data has been saved to file output.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:20:38.165 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:20:38.168 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 267.4125ms
+2021-02-16 18:25:39.089 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 18:25:39.158 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 18:25:39.162 +02:00 [INF] Hosting environment: Development
+2021-02-16 18:25:39.165 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 18:25:39.610 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 18:25:39.725 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 18:25:39.736 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 18:25:39.750 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 144.1826ms
+2021-02-16 18:26:15.145 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:26:15.145 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:26:15.145 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:26:15.146 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:26:15.148 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.150 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.152 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.153 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.169 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.176 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 30.6764ms
+2021-02-16 18:26:15.178 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:26:15.180 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.183 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:26:15.183 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:26:15.183 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:26:15.195 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.185 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:26:15.200 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.195 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.207 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at System.IO.File.Delete(String path)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimesMain() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAllCore(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 32
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 86
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 18:26:15.207 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimesMain() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 55
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAllCore(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 32
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 86
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 18:26:15.207 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:26:15.208 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\output.json' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at System.IO.File.Delete(String path)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimesMain() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAllCore(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at PM_HW_9.Services.PrimeAlgorithm.GetPrimes() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Services\PrimeAlgorithm.cs:line 32
+   at PM_HW_9.Startup.<>c.<<Configure>b__1_3>d.MoveNext() in C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9\Startup.cs:line 86
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-16 18:26:15.287 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 500 - text/plain 108.8026ms
+2021-02-16 18:26:15.295 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 500 - text/plain 150.6012ms
+2021-02-16 18:26:15.296 +02:00 [INF] File created successfully
+2021-02-16 18:26:15.310 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 500 - text/plain 164.7690ms
+2021-02-16 18:26:15.394 +02:00 [INF] Data has been saved to file output.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:26:15.397 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:26:15.399 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 253.0976ms
+2021-02-16 18:30:34.317 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 18:30:34.374 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 18:30:34.380 +02:00 [INF] Hosting environment: Development
+2021-02-16 18:30:34.382 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 18:30:34.937 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 18:30:35.056 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 18:30:35.105 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 18:30:35.146 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 214.6699ms
+2021-02-16 18:31:48.915 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:31:48.915 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:31:48.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:31:48.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:31:48.919 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:31:48.920 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:31:48.922 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:31:48.923 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:31:48.947 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:31:48.948 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:31:48.948 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:31:48.948 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:31:48.948 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:31:48.949 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:31:48.962 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:31:48.966 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 19.0396ms
+2021-02-16 18:31:48.971 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:31:48.975 +02:00 [INF] File created successfully
+2021-02-16 18:31:49.054 +02:00 [INF] Data has been saved to file 8974f0f9-ca5e-4aa7-ad79-d4c3158d23fa.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:31:49.056 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:31:49.060 +02:00 [INF] File created successfully
+2021-02-16 18:31:49.061 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:31:49.068 +02:00 [INF] Data has been saved to file ff954432-719a-433f-a45d-e2c83f03dfc4.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:31:49.069 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 200 - - 153.6899ms
+2021-02-16 18:31:49.071 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:31:49.072 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:31:49.073 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:31:49.075 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 159.3216ms
+2021-02-16 18:31:49.077 +02:00 [INF] File created successfully
+2021-02-16 18:31:49.081 +02:00 [INF] File created successfully
+2021-02-16 18:31:49.090 +02:00 [INF] Data has been saved to file ae2505a6-50a0-47df-8500-5b3a01dfddde.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:31:49.094 +02:00 [INF] Data has been saved to file 9d4a0057-8307-4880-b0cf-32432b481f17.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:31:49.094 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:31:49.100 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:31:49.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 186.8264ms
+2021-02-16 18:31:49.105 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 189.3359ms
+2021-02-16 18:32:28.005 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:32:28.008 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:32:28.011 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:32:28.014 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:32:28.015 +02:00 [INF] File created successfully
+2021-02-16 18:32:28.020 +02:00 [INF] Data has been saved to file 6b2b1bbd-cedb-4082-b91c-5d36a1cefed3.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:32:28.025 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:32:28.028 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 23.0119ms
+2021-02-16 18:32:33.099 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:32:33.103 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:32:33.106 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:32:33.111 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:32:33.115 +02:00 [INF] File created successfully
+2021-02-16 18:32:33.128 +02:00 [INF] Data has been saved to file 42e6cb5e-fa24-43d1-af5d-c1d23839a6cc.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:32:33.133 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:32:33.138 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 39.0404ms
+2021-02-16 18:34:48.252 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:34:48.253 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:34:48.253 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:34:48.253 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:34:48.258 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.262 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.265 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.267 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.270 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:34:48.272 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:34:48.278 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:34:48.280 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.297 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 44.2210ms
+2021-02-16 18:34:48.300 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:34:48.301 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.304 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:34:48.346 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:34:48.349 +02:00 [INF] File created successfully
+2021-02-16 18:34:48.353 +02:00 [INF] Data has been saved to file 93a3dafa-161b-4158-8a99-c697d057a669.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:34:48.359 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.360 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:34:48.365 +02:00 [INF] File created successfully
+2021-02-16 18:34:48.362 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 62.5448ms
+2021-02-16 18:34:48.369 +02:00 [INF] Data has been saved to file e760582a-6889-4362-a26a-d3256b131932.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:34:48.378 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.381 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 128.2584ms
+2021-02-16 18:34:48.383 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:34:48.388 +02:00 [INF] File created successfully
+2021-02-16 18:34:48.383 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:34:48.394 +02:00 [INF] File created successfully
+2021-02-16 18:34:48.398 +02:00 [INF] Data has been saved to file 7e6038dd-04db-4640-80ff-e4474ababc27.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:34:48.403 +02:00 [INF] Data has been saved to file c5848e67-07d5-4966-9a16-b03aa2f2a326.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:34:48.403 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.405 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:34:48.407 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 154.5001ms
+2021-02-16 18:34:48.411 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 158.0254ms
+2021-02-16 18:37:20.067 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 18:37:20.135 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 18:37:20.137 +02:00 [INF] Hosting environment: Development
+2021-02-16 18:37:20.139 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 18:37:21.036 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 18:37:21.163 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 18:37:21.174 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 18:37:21.187 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 154.1086ms
+2021-02-16 18:38:07.956 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:07.958 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:07.973 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:07.982 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:07.985 +02:00 [INF] File created successfully
+2021-02-16 18:38:08.071 +02:00 [INF] Data has been saved to file c24b7da7-b82d-4bf6-a2b4-cd352acdf42b.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:08.078 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:08.085 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 128.7582ms
+2021-02-16 18:38:10.191 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:10.194 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.196 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:10.202 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:10.207 +02:00 [INF] File created successfully
+2021-02-16 18:38:10.214 +02:00 [INF] Data has been saved to file 1242b0bd-b873-4603-be5d-0669375b092d.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:10.219 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.224 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 33.1173ms
+2021-02-16 18:38:10.472 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:10.474 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.479 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:10.481 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:10.483 +02:00 [INF] File created successfully
+2021-02-16 18:38:10.486 +02:00 [INF] Data has been saved to file 4acde8e7-c5a0-42c5-a060-435687deb1ac.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:10.488 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.490 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.5040ms
+2021-02-16 18:38:10.670 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:10.672 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.674 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:10.677 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:10.678 +02:00 [INF] File created successfully
+2021-02-16 18:38:10.683 +02:00 [INF] Data has been saved to file 3273ecb5-1cfd-4f26-8866-67872fed55a1.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:10.685 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.687 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 16.6770ms
+2021-02-16 18:38:10.936 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:10.939 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.943 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:10.948 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:10.950 +02:00 [INF] File created successfully
+2021-02-16 18:38:10.955 +02:00 [INF] Data has been saved to file 8acab940-94d6-4ec3-9c9e-28028f018592.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:10.957 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:10.965 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 28.2980ms
+2021-02-16 18:38:11.101 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:11.104 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.108 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:11.111 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:11.113 +02:00 [INF] File created successfully
+2021-02-16 18:38:11.117 +02:00 [INF] Data has been saved to file 559986e9-5d9c-4472-9936-3e819c2528d4.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:11.121 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.128 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 26.4019ms
+2021-02-16 18:38:11.146 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:11.148 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.151 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:11.156 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:11.158 +02:00 [INF] File created successfully
+2021-02-16 18:38:11.164 +02:00 [INF] Data has been saved to file b0c686f5-2909-499d-b431-525a073f45f9.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:11.169 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.173 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 27.0845ms
+2021-02-16 18:38:11.367 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:11.369 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.371 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:11.374 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:11.376 +02:00 [INF] File created successfully
+2021-02-16 18:38:11.380 +02:00 [INF] Data has been saved to file d72f9cf6-8be9-4b98-8b7c-c6b6ae682dd1.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:11.383 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.397 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 30.5589ms
+2021-02-16 18:38:11.599 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:11.600 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.602 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:11.605 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:11.608 +02:00 [INF] File created successfully
+2021-02-16 18:38:11.613 +02:00 [INF] Data has been saved to file 7d9ff88c-3f64-4bc1-9623-498345a0eeb3.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:11.615 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.618 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 19.0213ms
+2021-02-16 18:38:11.832 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:11.834 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.836 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:11.839 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:11.840 +02:00 [INF] File created successfully
+2021-02-16 18:38:11.847 +02:00 [INF] Data has been saved to file ad439b2a-5abc-4dbe-a173-871fe9e331d1.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:11.849 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:11.852 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 19.1835ms
+2021-02-16 18:38:12.115 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:12.117 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:12.121 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:12.128 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:12.131 +02:00 [INF] File created successfully
+2021-02-16 18:38:12.136 +02:00 [INF] Data has been saved to file 4efd3939-75e4-4f45-b881-1a88634c278f.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:12.139 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:12.143 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 28.5726ms
+2021-02-16 18:38:12.413 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:12.416 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:12.419 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:12.422 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:12.424 +02:00 [INF] File created successfully
+2021-02-16 18:38:12.429 +02:00 [INF] Data has been saved to file 6b97dfe6-bdbe-46cc-84c9-db7fed3b9589.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:12.432 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:12.436 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 23.0136ms
+2021-02-16 18:38:12.721 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:12.722 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:12.726 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:12.729 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:12.730 +02:00 [INF] File created successfully
+2021-02-16 18:38:12.734 +02:00 [INF] Data has been saved to file ffdf3c86-dd4a-4b3c-8744-04a54c83353a.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:12.737 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:12.739 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.8118ms
+2021-02-16 18:38:13.003 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:13.007 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.015 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:13.018 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:13.020 +02:00 [INF] File created successfully
+2021-02-16 18:38:13.024 +02:00 [INF] Data has been saved to file 09cba92f-2eb2-4efd-a042-7f7ada3fab39.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:13.032 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.038 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 34.9365ms
+2021-02-16 18:38:13.203 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:13.221 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.225 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:13.229 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:13.245 +02:00 [INF] File created successfully
+2021-02-16 18:38:13.286 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:13.290 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.293 +02:00 [INF] Data has been saved to file 4fb3a8ad-3f37-47a4-9d24-7f484b31e3ad.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:13.295 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:13.298 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.302 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 99.0045ms
+2021-02-16 18:38:13.303 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:13.306 +02:00 [INF] File created successfully
+2021-02-16 18:38:13.314 +02:00 [INF] Data has been saved to file 51d4eac3-617f-4211-a944-8aa2c055e4bf.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:13.317 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 32.9857ms
+2021-02-16 18:38:13.500 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:13.501 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.503 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:13.506 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:13.507 +02:00 [INF] File created successfully
+2021-02-16 18:38:13.511 +02:00 [INF] Data has been saved to file 46ed8b4c-a76e-4945-920f-73c13d741781.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:13.515 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.522 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 21.9593ms
+2021-02-16 18:38:13.767 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:13.769 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.771 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:13.774 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:13.776 +02:00 [INF] File created successfully
+2021-02-16 18:38:13.780 +02:00 [INF] Data has been saved to file af599b97-f67d-4911-80bc-0b98fe36f254.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:13.783 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.785 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.6280ms
+2021-02-16 18:38:13.984 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:13.987 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:13.990 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:13.993 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:13.995 +02:00 [INF] File created successfully
+2021-02-16 18:38:14.003 +02:00 [INF] Data has been saved to file 989e1a99-72fd-4623-829a-c9689e256a11.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:14.006 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:14.015 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 30.4061ms
+2021-02-16 18:38:14.193 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:14.200 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:14.204 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:14.207 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:14.211 +02:00 [INF] File created successfully
+2021-02-16 18:38:14.215 +02:00 [INF] Data has been saved to file 944802fe-f8db-48c2-bc55-99ef77a9a86d.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:14.219 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:14.224 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 30.5360ms
+2021-02-16 18:38:14.409 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:14.419 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:14.422 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:14.430 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:14.432 +02:00 [INF] File created successfully
+2021-02-16 18:38:14.436 +02:00 [INF] Data has been saved to file 18184149-25c4-4152-b648-d534db063dc5.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:14.438 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:14.444 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 34.7947ms
+2021-02-16 18:38:14.874 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:14.878 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:14.883 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:14.887 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:14.888 +02:00 [INF] File created successfully
+2021-02-16 18:38:14.891 +02:00 [INF] Data has been saved to file f3f0de81-e7e3-4421-8f01-ed20946467f3.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:14.894 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:14.900 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 26.3556ms
+2021-02-16 18:38:15.536 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:15.541 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:15.547 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:15.552 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:15.556 +02:00 [INF] File created successfully
+2021-02-16 18:38:15.560 +02:00 [INF] Data has been saved to file 3aeb7053-b15c-4ca0-9d05-3a9859ef777a.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:15.563 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:15.571 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 34.6091ms
+2021-02-16 18:38:15.883 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:15.885 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:15.887 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:15.890 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:15.894 +02:00 [INF] File created successfully
+2021-02-16 18:38:15.897 +02:00 [INF] Data has been saved to file c9ae1eb8-c190-49ac-8de6-10dac6eef121.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:15.899 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:15.902 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.3622ms
+2021-02-16 18:38:16.082 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:16.084 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.086 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:16.088 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:16.089 +02:00 [INF] File created successfully
+2021-02-16 18:38:16.094 +02:00 [INF] Data has been saved to file b2d1f302-4d3d-4867-bff8-300c99d1172d.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:16.096 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.098 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 16.2106ms
+2021-02-16 18:38:16.270 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:16.274 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.279 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:16.283 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:16.285 +02:00 [INF] File created successfully
+2021-02-16 18:38:16.290 +02:00 [INF] Data has been saved to file fcabe37a-48be-40b7-bdf9-e6639934bf08.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:16.295 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.297 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 27.2392ms
+2021-02-16 18:38:16.424 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:16.432 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.439 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:16.442 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:16.444 +02:00 [INF] File created successfully
+2021-02-16 18:38:16.453 +02:00 [INF] Data has been saved to file 141c34d3-1391-4b5b-9120-89a952a3e229.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:16.456 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.469 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 45.1870ms
+2021-02-16 18:38:16.483 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:16.485 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.488 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:16.491 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:16.494 +02:00 [INF] File created successfully
+2021-02-16 18:38:16.500 +02:00 [INF] Data has been saved to file 361e8869-d6e2-42c1-a9d9-755a8f255bab.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:16.505 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.508 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 24.1778ms
+2021-02-16 18:38:16.704 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:16.706 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.709 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:16.713 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:16.714 +02:00 [INF] File created successfully
+2021-02-16 18:38:16.717 +02:00 [INF] Data has been saved to file 40b21835-a9ce-4501-9ffb-a969c1840a11.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:16.720 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.722 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.0422ms
+2021-02-16 18:38:16.889 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:16.902 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.907 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:16.917 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:16.919 +02:00 [INF] File created successfully
+2021-02-16 18:38:16.924 +02:00 [INF] Data has been saved to file 4f1e6b9a-cd9b-499a-a71c-9cd582f23f16.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:16.932 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.957 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 67.2949ms
+2021-02-16 18:38:16.963 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:16.965 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.972 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:16.975 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:16.980 +02:00 [INF] File created successfully
+2021-02-16 18:38:16.983 +02:00 [INF] Data has been saved to file 66121225-5942-4eea-a506-d62d51117dc7.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:16.986 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:16.990 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 27.5404ms
+2021-02-16 18:38:17.198 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:17.200 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.203 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:17.206 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:17.218 +02:00 [INF] File created successfully
+2021-02-16 18:38:17.232 +02:00 [INF] Data has been saved to file 88524ce7-2fcd-4abf-8c3d-13e9aabcb8fd.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:17.236 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.253 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 55.1185ms
+2021-02-16 18:38:17.260 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:17.262 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.265 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:17.267 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:17.268 +02:00 [INF] File created successfully
+2021-02-16 18:38:17.274 +02:00 [INF] Data has been saved to file 0a705e17-8017-4116-ac19-b18f9496fdf7.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:17.276 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.279 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.5284ms
+2021-02-16 18:38:17.550 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:17.553 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.575 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:17.593 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:17.595 +02:00 [INF] File created successfully
+2021-02-16 18:38:17.599 +02:00 [INF] Data has been saved to file 1d808ded-9fd2-481f-8146-b3f72f18581f.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:17.601 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.606 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 57.8516ms
+2021-02-16 18:38:17.967 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:17.968 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.970 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:17.973 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:17.974 +02:00 [INF] File created successfully
+2021-02-16 18:38:17.979 +02:00 [INF] Data has been saved to file 8924e972-d5e8-42cf-9890-feb80fc5d8a2.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:17.981 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:17.985 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.3736ms
+2021-02-16 18:38:18.211 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:18.216 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:18.219 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:18.231 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:18.238 +02:00 [INF] File created successfully
+2021-02-16 18:38:18.249 +02:00 [INF] Data has been saved to file 16c2ea0a-818f-4ef5-92d1-ce7003d003b5.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:18.251 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:18.255 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:18.256 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:18.262 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 50.4798ms
+2021-02-16 18:38:18.264 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:18.270 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:18.271 +02:00 [INF] File created successfully
+2021-02-16 18:38:18.274 +02:00 [INF] Data has been saved to file 64e9bbc4-c6cb-47fb-94be-03f0e912f6f1.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:18.279 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:18.281 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 30.1371ms
+2021-02-16 18:38:18.566 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:38:18.570 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:38:18.580 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:38:18.589 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:38:18.593 +02:00 [INF] File created successfully
+2021-02-16 18:38:18.606 +02:00 [INF] Data has been saved to file fa8bd0ba-a334-4a4f-884b-14b39147f0fb.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:38:18.629 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:38:18.638 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 71.8446ms
+2021-02-16 18:40:21.743 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 18:40:21.824 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 18:40:21.827 +02:00 [INF] Hosting environment: Development
+2021-02-16 18:40:21.829 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 18:40:22.661 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 18:40:22.780 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 18:40:22.796 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 18:40:22.813 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 148.0239ms
+2021-02-16 18:42:07.034 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:42:07.035 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:42:07.035 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:42:07.035 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:42:07.039 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.040 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.042 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.043 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.056 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.061 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 25.3452ms
+2021-02-16 18:42:07.061 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:42:07.061 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:42:07.061 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:42:07.064 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:42:07.076 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.084 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:42:07.091 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:42:07.091 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:42:07.091 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:42:07.101 +02:00 [INF] File created successfully
+2021-02-16 18:42:07.097 +02:00 [INF] File created successfully
+2021-02-16 18:42:07.099 +02:00 [INF] File created successfully
+2021-02-16 18:42:07.091 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:42:07.113 +02:00 [INF] File created successfully
+2021-02-16 18:42:07.191 +02:00 [INF] Data has been saved to file 4693a4bd-4723-4582-9a3b-70d74820ab55.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:42:07.191 +02:00 [INF] Data has been saved to file 9cd87732-9e1d-4ffd-bd85-a4c7fb5d60d9.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:42:07.191 +02:00 [INF] Data has been saved to file c0fb7b1c-d87c-402e-91af-56fce143c7ed.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:42:07.191 +02:00 [INF] Data has been saved to file 410fd3d0-da2f-4cba-8be0-f1fa94ebf806.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:42:07.196 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.196 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.200 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.200 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:42:07.205 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 170.1020ms
+2021-02-16 18:42:07.208 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 173.1748ms
+2021-02-16 18:42:07.210 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 174.7793ms
+2021-02-16 18:42:07.212 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 148.5307ms
+2021-02-16 18:43:03.977 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:43:04.000 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.003 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:43:04.014 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:43:04.014 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:43:04.014 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:43:04.018 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.018 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:43:04.019 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:43:04.021 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.022 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.025 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:43:04.026 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.028 +02:00 [INF] File created successfully
+2021-02-16 18:43:04.030 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:43:04.033 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.036 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:43:04.041 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:43:04.046 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:43:04.047 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 32.9651ms
+2021-02-16 18:43:04.049 +02:00 [INF] File created successfully
+2021-02-16 18:43:04.055 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:43:04.062 +02:00 [INF] File created successfully
+2021-02-16 18:43:04.056 +02:00 [INF] File created successfully
+2021-02-16 18:43:04.056 +02:00 [INF] Data has been saved to file 4679ebdb-fdfa-4a7b-b896-4b75ae308a83.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:43:04.063 +02:00 [INF] Data has been saved to file 0af5eb4f-0cd4-48aa-b9fd-1319867af631.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:43:04.067 +02:00 [INF] Data has been saved to file 7930cd3a-2947-452f-ba2c-8bf7a59dd804.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:43:04.071 +02:00 [INF] Data has been saved to file 06671178-2846-4187-acdf-1d4247aa0c38.json. Method GetPrimes in class PrimeAlgorithm.cs
+2021-02-16 18:43:04.076 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.079 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.079 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 88.0755ms
+2021-02-16 18:43:04.081 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 62.5311ms
+2021-02-16 18:43:04.086 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 109.4544ms
+2021-02-16 18:43:04.079 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:43:04.118 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 103.5841ms
+2021-02-16 18:49:43.319 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 18:49:43.550 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 18:49:43.813 +02:00 [INF] Hosting environment: Development
+2021-02-16 18:49:43.815 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 18:49:44.008 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 18:49:44.132 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 18:49:44.154 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 18:49:44.198 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 197.6596ms
+2021-02-16 18:52:09.637 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:52:09.639 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:09.655 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:52:09.663 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:09.666 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:09.673 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:09.683 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 45.7790ms
+2021-02-16 18:52:20.260 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:52:20.263 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.265 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:52:20.267 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:20.270 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:20.272 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.277 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 17.6557ms
+2021-02-16 18:52:20.298 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:52:20.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:52:20.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:52:20.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:52:20.310 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.303 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.305 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.301 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.313 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.315 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:52:20.317 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:52:20.320 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:52:20.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 25.7431ms
+2021-02-16 18:52:20.327 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:20.329 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:20.331 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:20.335 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:20.337 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:20.341 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:20.344 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.346 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.348 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:20.350 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 51.3291ms
+2021-02-16 18:52:20.353 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 200 - - 53.9680ms
+2021-02-16 18:52:20.357 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 58.6582ms
+2021-02-16 18:52:55.193 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:52:55.193 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:52:55.193 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:52:55.202 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.205 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.206 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.209 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:52:55.214 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.216 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:52:55.219 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:55.223 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 29.7401ms
+2021-02-16 18:52:55.224 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:55.227 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:55.232 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:52:55.234 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:55.236 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.238 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.240 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.243 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 50.3207ms
+2021-02-16 18:52:55.247 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:52:55.249 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 56.2426ms
+2021-02-16 18:52:55.252 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:52:55.253 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:52:55.264 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:55.257 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.266 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.270 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:52:55.272 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 39.7020ms
+2021-02-16 18:52:55.279 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:52:55.283 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:52:55.285 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:52:55.288 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 36.2163ms
+2021-02-16 18:53:48.389 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:53:48.394 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:53:48.398 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:53:48.403 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 18:53:48.406 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:53:48.410 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:53:48.414 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 24.6530ms
+2021-02-16 18:59:54.469 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 18:59:54.469 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 18:59:54.476 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 18:59:54.487 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 18:59:54.525 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 18:59:54.529 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.531 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.533 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.535 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.537 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.539 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 18:59:54.542 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 18:59:54.544 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 18:59:54.549 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 18:59:54.552 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.563 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 37.9846ms
+2021-02-16 18:59:54.555 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:59:54.569 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:59:54.571 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.553 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:59:54.575 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:59:54.559 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:59:54.586 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:59:54.557 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 18:59:54.585 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.573 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 104.0493ms
+2021-02-16 18:59:54.588 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.591 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 18:59:54.595 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 125.4386ms
+2021-02-16 18:59:54.599 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 111.5991ms
+2021-02-16 18:59:54.601 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 18:59:54.630 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 154.6942ms
+2021-02-16 19:00:27.185 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:00:27.189 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:27.193 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:00:27.195 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:00:27.198 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:00:27.201 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:27.209 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 24.0928ms
+2021-02-16 19:00:29.209 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:00:29.212 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:29.216 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:00:29.219 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:00:29.221 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:00:29.224 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:29.232 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 23.4944ms
+2021-02-16 19:00:29.584 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:00:29.586 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:29.588 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:00:29.592 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:00:29.595 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:00:29.597 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:29.604 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 20.1120ms
+2021-02-16 19:00:37.971 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:00:37.971 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:00:37.972 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:00:37.972 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:00:37.974 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:37.979 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:37.980 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:37.982 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:37.985 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:00:37.987 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:37.990 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:00:37.995 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:00:37.996 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:00:37.999 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 27.2322ms
+2021-02-16 19:00:38.000 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:00:38.012 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:00:38.004 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:00:38.008 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:00:38.002 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:00:38.014 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:38.015 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:38.017 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:00:38.019 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:00:38.025 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 53.4509ms
+2021-02-16 19:00:38.027 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 56.1184ms
+2021-02-16 19:00:38.030 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:00:38.032 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:38.054 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 81.9452ms
+2021-02-16 19:00:38.043 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:00:38.061 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:00:38.062 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:00:38.065 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 56.4148ms
+2021-02-16 19:01:11.867 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:01:11.880 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:01:11.881 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:01:11.884 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.886 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.888 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.893 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:01:11.896 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:01:11.898 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:01:11.900 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:01:11.901 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:01:11.903 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:01:11.905 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:11.909 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:11.911 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:11.913 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.914 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.916 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.919 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 51.3267ms
+2021-02-16 19:01:11.921 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 40.4638ms
+2021-02-16 19:01:11.927 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 46.3876ms
+2021-02-16 19:01:11.929 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:01:11.931 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:01:11.934 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.936 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.944 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:11.946 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:01:11.951 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 22.0920ms
+2021-02-16 19:01:11.999 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:01:12.013 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:12.016 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:12.089 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 158.1923ms
+2021-02-16 19:01:40.980 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:01:40.980 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:01:40.980 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:01:40.983 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:40.985 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:40.986 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:40.989 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:01:40.997 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:01:40.995 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:41.012 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 31.4791ms
+2021-02-16 19:01:41.008 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:40.993 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:01:41.016 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:01:41.017 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:41.026 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 46.1039ms
+2021-02-16 19:01:41.028 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:01:41.031 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:41.033 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:01:41.035 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:01:41.045 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:41.047 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:41.020 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:01:41.055 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:01:41.058 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:01:41.059 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:41.050 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 21.4382ms
+2021-02-16 19:01:41.019 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:01:41.065 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:01:41.061 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:41.071 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 55.4908ms
+2021-02-16 19:01:41.069 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:01:41.076 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 95.7810ms
+2021-02-16 19:02:30.502 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:02:30.507 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:02:30.511 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:02:30.513 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:02:30.514 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:02:30.516 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:02:30.524 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 21.8215ms
+2021-02-16 19:02:31.061 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:02:31.066 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:02:31.069 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:02:31.071 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:02:31.073 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:02:31.075 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:02:31.078 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 17.1482ms
+2021-02-16 19:02:31.444 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:02:31.448 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:02:31.452 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:02:31.454 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:02:31.456 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:02:31.457 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:02:31.460 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 15.5131ms
+2021-02-16 19:02:31.666 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:02:31.669 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:02:31.671 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:02:31.673 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:02:31.674 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:02:31.677 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:02:31.679 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 13.1736ms
+2021-02-16 19:02:32.056 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:02:32.059 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:02:32.065 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:02:32.067 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:02:32.068 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:02:32.070 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:02:32.072 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 16.8047ms
+2021-02-16 19:03:30.746 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:03:30.746 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:03:30.746 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:03:30.747 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:03:30.750 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.752 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.754 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.756 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.761 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:03:30.764 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.766 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:03:30.769 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:03:30.774 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:03:30.777 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 30.3802ms
+2021-02-16 19:03:30.778 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:03:30.780 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:03:30.792 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:03:30.786 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:03:30.782 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:03:30.794 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.796 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.798 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:03:30.801 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 53.1546ms
+2021-02-16 19:03:30.806 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 200 - - 59.6953ms
+2021-02-16 19:03:30.809 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 62.5131ms
+2021-02-16 19:04:09.056 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:09.061 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:09.066 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:09.068 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:09.070 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:09.072 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:09.074 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 17.4829ms
+2021-02-16 19:04:10.592 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:10.597 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:10.602 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:10.604 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:10.607 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:10.616 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:10.618 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 26.0743ms
+2021-02-16 19:04:10.968 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:10.973 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:10.978 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:10.981 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:10.986 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:10.989 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:10.993 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 24.3675ms
+2021-02-16 19:04:12.089 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:12.093 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.096 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:12.104 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:12.107 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:12.112 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.118 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 28.9283ms
+2021-02-16 19:04:12.317 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:12.318 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.320 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:12.322 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:12.324 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:12.326 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.331 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 14.6912ms
+2021-02-16 19:04:12.583 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:12.587 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.590 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:12.592 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:12.595 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:12.596 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.599 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 15.7220ms
+2021-02-16 19:04:12.765 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:12.770 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.773 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:12.777 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:12.779 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:12.781 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.784 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 18.8201ms
+2021-02-16 19:04:12.934 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:12.938 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.940 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:12.947 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:12.950 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:12.952 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:12.956 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 22.0765ms
+2021-02-16 19:04:13.173 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:13.175 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.179 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:13.181 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:13.182 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:13.184 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.186 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 12.8498ms
+2021-02-16 19:04:13.399 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:13.401 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.404 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:13.406 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:13.408 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:13.411 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.413 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 14.0917ms
+2021-02-16 19:04:13.571 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:13.578 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.583 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:13.585 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:13.588 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:13.590 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.597 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 25.6849ms
+2021-02-16 19:04:13.630 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:13.631 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.633 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:13.635 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:13.636 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:13.638 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.642 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 12.0088ms
+2021-02-16 19:04:13.840 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:13.843 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.845 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:13.847 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:13.851 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:13.852 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:13.855 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 14.7431ms
+2021-02-16 19:04:14.023 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:14.029 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.031 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:14.035 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:14.039 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:14.041 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.045 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 22.1389ms
+2021-02-16 19:04:14.203 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:14.207 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.213 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:14.215 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:14.217 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:14.219 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.222 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 18.1452ms
+2021-02-16 19:04:14.390 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:14.399 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.405 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:14.407 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:14.411 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:14.414 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.422 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 32.3705ms
+2021-02-16 19:04:14.426 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:14.428 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.432 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:14.435 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:14.437 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:14.439 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.443 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 16.6660ms
+2021-02-16 19:04:14.647 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:04:14.651 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.656 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:04:14.658 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:04:14.662 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:04:14.664 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:04:14.671 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 23.6264ms
+2021-02-16 19:05:06.002 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:05:06.002 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:05:06.002 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:05:06.002 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:05:06.005 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.014 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:05:06.009 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.022 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:05:06.007 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.018 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:05:06.011 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.024 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:05:06.026 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.028 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:06.033 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:05:06.035 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:06.038 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 35.3201ms
+2021-02-16 19:05:06.039 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.054 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 51.2701ms
+2021-02-16 19:05:06.046 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:05:06.043 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.058 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:06.061 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 58.2225ms
+2021-02-16 19:05:06.066 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:06.070 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 67.4227ms
+2021-02-16 19:05:49.342 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:05:49.349 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:49.353 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:05:49.355 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:05:49.361 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:49.364 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:49.370 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 28.2189ms
+2021-02-16 19:05:51.240 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:05:51.244 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:51.249 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:05:51.252 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:05:51.254 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:51.259 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:51.268 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 27.5154ms
+2021-02-16 19:05:51.848 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:05:51.853 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:51.856 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:05:51.857 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:05:51.861 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:51.865 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:51.867 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 18.9135ms
+2021-02-16 19:05:52.239 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:05:52.244 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:52.250 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:05:52.251 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:05:52.256 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:52.260 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:52.266 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 26.2294ms
+2021-02-16 19:05:52.593 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:05:52.597 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:05:52.602 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:05:52.605 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:05:52.611 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:05:52.615 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:05:52.621 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 27.8246ms
+2021-02-16 19:07:36.864 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 19:07:36.925 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 19:07:36.927 +02:00 [INF] Hosting environment: Development
+2021-02-16 19:07:36.929 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 19:07:37.437 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:07:37.538 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:07:37.552 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:07:37.560 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 134.1942ms
+2021-02-16 19:17:40.690 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:17:40.693 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:17:40.708 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:17:40.716 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:17:40.719 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:17:40.726 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:17:40.733 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 42.6900ms
+2021-02-16 19:17:45.547 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=10 - -
+2021-02-16 19:17:45.552 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:17:45.555 +02:00 [INF] Got parameters from request: [400;10]
+2021-02-16 19:17:45.557 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:17:45.561 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:17:45.564 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:17:45.568 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=10 - - - 400 - - 21.2476ms
+2021-02-16 19:17:46.872 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=10 - -
+2021-02-16 19:17:46.875 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:17:46.880 +02:00 [INF] Got parameters from request: [400;10]
+2021-02-16 19:17:46.884 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:17:46.891 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:17:46.895 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:17:46.901 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=10 - - - 400 - - 29.3078ms
+2021-02-16 19:17:49.874 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=401 - -
+2021-02-16 19:17:49.878 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:17:49.885 +02:00 [INF] Got parameters from request: [400;401]
+2021-02-16 19:17:49.886 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:17:49.888 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:17:49.890 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:17:49.895 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=401 - - - 200 - - 20.6228ms
+2021-02-16 19:17:53.028 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=402 - -
+2021-02-16 19:17:53.030 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:17:53.034 +02:00 [INF] Got parameters from request: [400;402]
+2021-02-16 19:17:53.036 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:17:53.037 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:17:53.040 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:17:53.046 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=402 - - - 200 - - 18.4638ms
+2021-02-16 19:17:56.388 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=401&to=402 - -
+2021-02-16 19:17:56.390 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:17:56.397 +02:00 [INF] Got parameters from request: [401;402]
+2021-02-16 19:17:56.399 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:17:56.404 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:17:56.412 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:17:56.416 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=401&to=402 - - - 200 - - 28.2665ms
+2021-02-16 19:17:57.661 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=401&to=402 - -
+2021-02-16 19:17:57.665 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:17:57.668 +02:00 [INF] Got parameters from request: [401;402]
+2021-02-16 19:17:57.672 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:17:57.678 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:17:57.681 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:17:57.684 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=401&to=402 - - - 200 - - 23.1809ms
+2021-02-16 19:18:03.102 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - -
+2021-02-16 19:18:03.105 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:18:03.109 +02:00 [INF] Got parameters from request: [402;403]
+2021-02-16 19:18:03.113 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:18:03.116 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:18:03.118 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:18:03.123 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - - - 200 - - 21.1466ms
+2021-02-16 19:18:43.258 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:18:43.260 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.263 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:18:43.265 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:18:43.267 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:18:43.269 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.302 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:18:43.314 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:18:43.317 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 59.2866ms
+2021-02-16 19:18:43.318 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.321 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.324 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - -
+2021-02-16 19:18:43.327 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:18:43.330 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:18:43.332 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.335 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:18:43.344 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:18:43.346 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:18:43.352 +02:00 [INF] Got parameters from request: [402;403]
+2021-02-16 19:18:43.357 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:18:43.360 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:18:43.362 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.370 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:18:43.373 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.375 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.378 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:18:43.380 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:18:43.387 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 84.6888ms
+2021-02-16 19:18:43.389 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 74.9042ms
+2021-02-16 19:18:43.392 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:18:43.393 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.395 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:18:43.403 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:18:43.406 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - - - 200 - - 81.2904ms
+2021-02-16 19:18:43.408 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.410 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.418 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:18:43.420 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 74.3284ms
+2021-02-16 19:18:43.423 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 27.3740ms
+2021-02-16 19:19:03.809 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:19:03.811 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.814 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:19:03.817 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:19:03.821 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:19:03.823 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.827 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 18.1109ms
+2021-02-16 19:19:03.842 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:19:03.842 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:19:03.842 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:19:03.851 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.846 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.844 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.854 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:19:03.856 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:19:03.859 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.861 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:19:03.863 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:19:03.870 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 27.3180ms
+2021-02-16 19:19:03.872 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:19:03.874 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:19:03.876 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:19:03.878 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.882 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.886 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.888 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 45.8600ms
+2021-02-16 19:19:03.890 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 48.1461ms
+2021-02-16 19:19:03.893 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:19:03.904 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:19:03.906 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:19:03.908 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:19:03.911 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 34.8725ms
+2021-02-16 19:22:43.550 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:22:43.562 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.567 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:22:43.569 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:22:43.571 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:43.573 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.577 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 26.8910ms
+2021-02-16 19:22:43.588 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:22:43.588 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:22:43.589 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:22:43.598 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.593 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.591 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.600 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.603 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:22:43.605 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:22:43.607 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 17.6444ms
+2021-02-16 19:22:43.609 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:22:43.614 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:22:43.616 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:22:43.619 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:43.621 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.632 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:22:43.626 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.623 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:43.634 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:22:43.636 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 48.1659ms
+2021-02-16 19:22:43.638 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.640 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:43.649 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 61.2642ms
+2021-02-16 19:22:43.651 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:43.655 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 40.7540ms
+2021-02-16 19:22:57.698 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:22:57.700 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.702 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:22:57.704 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:22:57.709 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:57.711 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.713 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 15.3475ms
+2021-02-16 19:22:57.730 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:22:57.730 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - -
+2021-02-16 19:22:57.733 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:22:57.734 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.736 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.738 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.742 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:22:57.747 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:22:57.749 +02:00 [INF] Got parameters from request: [402;403]
+2021-02-16 19:22:57.751 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.753 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.770 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:22:57.765 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:22:57.776 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:57.765 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:22:57.768 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 35.0610ms
+2021-02-16 19:22:57.776 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:22:57.777 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.779 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:57.781 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:22:57.783 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:57.786 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 55.9345ms
+2021-02-16 19:22:57.791 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.793 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.795 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.810 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 67.9366ms
+2021-02-16 19:22:57.807 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:22:57.814 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:22:57.801 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - - - 200 - - 70.8522ms
+2021-02-16 19:22:57.817 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:22:57.825 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:22:57.828 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 46.5520ms
+2021-02-16 19:24:41.816 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:24:41.857 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:24:41.860 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - -
+2021-02-16 19:24:41.860 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:24:41.863 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:24:41.864 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:24:41.881 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:24:41.884 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:24:41.887 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:24:41.890 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:24:41.896 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:24:41.903 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:24:41.918 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:24:41.922 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:24:41.928 +02:00 [INF] Got parameters from request: [402;403]
+2021-02-16 19:24:41.932 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:24:41.936 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:24:41.943 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:24:41.987 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:24:41.990 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:24:41.994 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:24:41.997 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:24:42.000 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 136.2635ms
+2021-02-16 19:24:42.003 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:24:42.010 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:24:42.013 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:24:42.030 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:24:42.032 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:24:42.041 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:24:42.043 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:24:42.045 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:24:42.059 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 202.2039ms
+2021-02-16 19:24:42.048 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:24:42.050 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:24:42.065 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 201.6111ms
+2021-02-16 19:24:42.047 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:24:42.063 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 203.0483ms
+2021-02-16 19:24:42.057 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 241.4090ms
+2021-02-16 19:24:42.073 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - - - 400 - - 212.9512ms
+2021-02-16 19:25:41.871 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:25:41.940 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:25:41.951 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:25:41.954 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 83.1600ms
+2021-02-16 19:25:44.070 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:25:44.072 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:25:44.075 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:25:44.077 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:25:44.079 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:25:44.082 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:25:44.087 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 16.2238ms
+2021-02-16 19:25:48.802 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=10 - -
+2021-02-16 19:25:48.806 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:25:48.811 +02:00 [INF] Got parameters from request: [-5;10]
+2021-02-16 19:25:48.815 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:25:48.818 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:25:48.820 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:25:48.822 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=10 - - - 400 - - 20.1895ms
+2021-02-16 19:25:51.508 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - -
+2021-02-16 19:25:51.511 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:25:51.517 +02:00 [INF] Got parameters from request: [-5;1]
+2021-02-16 19:25:51.519 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:25:51.521 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:25:51.522 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:25:51.529 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - - - 400 - - 21.4436ms
+2021-02-16 19:26:18.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - -
+2021-02-16 19:26:18.029 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:26:18.032 +02:00 [INF] Got parameters from request: [-5;1]
+2021-02-16 19:26:18.034 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:26:18.036 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:26:18.039 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:26:18.042 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - - - 400 - - 15.5147ms
+2021-02-16 19:27:09.360 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 19:27:09.564 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 19:27:09.574 +02:00 [INF] Hosting environment: Development
+2021-02-16 19:27:09.611 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 19:27:10.064 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:27:10.187 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:27:10.203 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:27:10.216 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 158.5453ms
+2021-02-16 19:27:13.590 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - -
+2021-02-16 19:27:13.595 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:13.609 +02:00 [INF] Got parameters from request: [-5;1]
+2021-02-16 19:27:13.618 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:27:13.621 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:13.628 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:13.636 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - - - 200 - - 46.4172ms
+2021-02-16 19:27:14.506 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - -
+2021-02-16 19:27:14.509 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:14.512 +02:00 [INF] Got parameters from request: [-5;1]
+2021-02-16 19:27:14.514 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:27:14.517 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:14.522 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:14.531 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-5&to=1 - - - 200 - - 24.7857ms
+2021-02-16 19:27:26.765 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:27:26.767 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.772 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:27:26.774 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:27:26.776 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:26.779 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.782 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 16.7738ms
+2021-02-16 19:27:26.796 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:27:26.796 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:27:26.796 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - -
+2021-02-16 19:27:26.797 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:27:26.797 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:27:26.799 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.801 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.806 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.808 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.810 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.812 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:27:26.815 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:27:26.822 +02:00 [INF] Got parameters from request: [402;403]
+2021-02-16 19:27:26.824 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:27:26.826 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.828 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:27:26.829 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:27:26.832 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:27:26.836 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:27:26.838 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 41.1973ms
+2021-02-16 19:27:26.840 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:26.842 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:26.844 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:26.846 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:26.853 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.854 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.856 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.858 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:26.860 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 64.4754ms
+2021-02-16 19:27:26.867 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 71.4016ms
+2021-02-16 19:27:26.869 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=402&to=403 - - - 400 - - 73.2151ms
+2021-02-16 19:27:26.871 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 74.4763ms
+2021-02-16 19:27:48.370 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:27:48.373 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.377 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:27:48.379 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:27:48.381 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:48.383 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.386 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 15.9907ms
+2021-02-16 19:27:48.400 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:27:48.404 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:27:48.405 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-16 19:27:48.410 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.412 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.414 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.417 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:27:48.419 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:27:48.423 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-16 19:27:48.425 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:27:48.426 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:27:48.428 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:27:48.429 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:27:48.432 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:48.434 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.435 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:48.441 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:48.443 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.446 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:27:48.448 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.450 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.452 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 51.6682ms
+2021-02-16 19:27:48.458 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:27:48.461 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 56.0769ms
+2021-02-16 19:27:48.463 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 200 - - 58.3492ms
+2021-02-16 19:27:48.465 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:27:48.469 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:27:48.476 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.477 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.480 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:27:48.484 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 58.2642ms
+2021-02-16 19:27:48.489 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 23.3519ms
+2021-02-16 19:29:14.784 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 19:29:14.853 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 19:29:14.854 +02:00 [INF] Hosting environment: Development
+2021-02-16 19:29:14.856 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 19:29:15.401 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:29:15.498 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:29:15.508 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:29:15.516 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 119.0177ms
+2021-02-16 19:29:24.179 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:29:24.184 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:29:24.186 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:29:24.189 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 10.5590ms
+2021-02-16 19:29:24.230 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-16 19:29:24.234 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.244 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-16 19:29:24.247 +02:00 [INF] Got parameters from request: [0]
+2021-02-16 19:29:24.248 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-16 19:29:24.249 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-16 19:29:24.249 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-16 19:29:24.253 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.254 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-16 19:29:24.255 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.257 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 8.3704ms
+2021-02-16 19:29:24.259 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.264 +02:00 [INF] Got parameters from request: [2]
+2021-02-16 19:29:24.266 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.267 +02:00 [INF] Got parameters from request: [-250]
+2021-02-16 19:29:24.272 +02:00 [INF] Got parameters from request: [51673]
+2021-02-16 19:29:24.274 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-16 19:29:24.278 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-16 19:29:24.278 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 47.7110ms
+2021-02-16 19:29:24.280 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-16 19:29:24.281 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.282 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.286 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:29:24.288 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 43.6376ms
+2021-02-16 19:29:24.290 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 41.4973ms
+2021-02-16 19:29:24.296 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 47.0450ms
+2021-02-16 19:29:24.307 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:29:24.308 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:29:24.308 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-16 19:29:24.308 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:29:24.308 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:29:24.313 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.314 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.316 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.318 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.319 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.332 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-16 19:29:24.332 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-16 19:29:24.332 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-16 19:29:24.333 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:29:24.335 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.349 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:29:24.349 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:29:24.349 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:29:24.349 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:29:24.351 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 42.9187ms
+2021-02-16 19:29:24.354 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:29:24.357 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:29:24.361 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:29:24.363 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:29:24.366 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - -
+2021-02-16 19:29:24.370 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.370 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.376 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.378 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.379 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.384 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 400 - - 75.9944ms
+2021-02-16 19:29:24.384 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 76.2820ms
+2021-02-16 19:29:24.388 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 80.2586ms
+2021-02-16 19:29:24.390 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 82.5452ms
+2021-02-16 19:29:24.393 +02:00 [INF] Got parameters from request: [25;0]
+2021-02-16 19:29:24.407 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:29:24.410 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:29:24.412 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:29:24.414 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=25&to=0 - - - 400 - - 48.2541ms
+2021-02-16 19:39:15.617 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 19:39:15.680 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 19:39:15.682 +02:00 [INF] Hosting environment: Development
+2021-02-16 19:39:15.684 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 19:39:16.201 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:39:16.313 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:39:16.333 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:39:16.430 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 226.9938ms
+2021-02-16 19:43:18.218 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:43:18.236 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:43:18.251 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:43:18.310 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 91.7805ms
+2021-02-16 19:43:18.361 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-16 19:43:18.364 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-16 19:43:18.365 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-16 19:43:18.366 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-16 19:43:18.412 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 47.6327ms
+2021-02-16 19:43:18.415 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.416 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.428 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.429 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-16 19:43:18.461 +02:00 [INF] Got parameters from request: [51673]
+2021-02-16 19:43:18.461 +02:00 [INF] Got parameters from request: [2]
+2021-02-16 19:43:18.490 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.490 +02:00 [INF] Got parameters from request: [0]
+2021-02-16 19:43:18.520 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-16 19:43:18.522 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-16 19:43:18.524 +02:00 [INF] Got parameters from request: [-250]
+2021-02-16 19:43:18.531 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-16 19:43:18.538 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.539 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.541 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-16 19:43:18.543 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.549 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 186.9813ms
+2021-02-16 19:43:18.551 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 186.0850ms
+2021-02-16 19:43:18.553 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:43:18.556 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 189.4783ms
+2021-02-16 19:43:18.579 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 149.2131ms
+2021-02-16 19:43:18.599 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:43:18.600 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-16 19:43:18.601 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:43:18.601 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:43:18.608 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.610 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.617 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.620 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.638 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:43:18.638 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:43:18.638 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:43:18.640 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:43:18.653 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:43:18.653 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:43:18.695 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:43:18.702 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.687 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:43:18.653 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:43:18.710 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:43:18.706 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 106.9296ms
+2021-02-16 19:43:18.708 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.653 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:43:18.712 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.714 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:43:18.716 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 400 - - 115.6680ms
+2021-02-16 19:43:18.718 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:43:18.723 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 121.9725ms
+2021-02-16 19:43:18.730 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.739 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.741 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:43:18.771 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 56.5939ms
+2021-02-16 19:43:18.773 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 170.8441ms
+2021-02-16 19:46:05.219 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:46:05.222 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:46:05.225 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:46:05.245 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 25.5590ms
+2021-02-16 19:46:05.280 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-16 19:46:05.282 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.287 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-16 19:46:05.287 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-16 19:46:05.289 +02:00 [INF] Got parameters from request: [0]
+2021-02-16 19:46:05.291 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 3.9780ms
+2021-02-16 19:46:05.293 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.296 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-16 19:46:05.298 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-16 19:46:05.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-16 19:46:05.301 +02:00 [INF] Got parameters from request: [-250]
+2021-02-16 19:46:05.303 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.305 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.307 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.309 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-16 19:46:05.315 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 34.8319ms
+2021-02-16 19:46:05.317 +02:00 [INF] Got parameters from request: [51673]
+2021-02-16 19:46:05.326 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-16 19:46:05.322 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.320 +02:00 [INF] Got parameters from request: [2]
+2021-02-16 19:46:05.330 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.332 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 45.5698ms
+2021-02-16 19:46:05.335 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-16 19:46:05.343 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:46:05.337 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 38.5565ms
+2021-02-16 19:46:05.345 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 46.2628ms
+2021-02-16 19:46:05.368 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:46:05.368 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-16 19:46:05.368 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:46:05.368 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:46:05.370 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.372 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.375 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.377 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.380 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:46:05.382 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-16 19:46:05.385 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:46:05.387 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:46:05.393 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:46:05.395 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:46:05.396 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:46:05.398 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:46:05.401 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:46:05.403 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:46:05.407 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:46:05.410 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:46:05.412 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.414 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.416 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.427 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 59.1036ms
+2021-02-16 19:46:05.420 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 52.4214ms
+2021-02-16 19:46:05.424 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 400 - - 56.4721ms
+2021-02-16 19:46:05.418 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.436 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 67.9407ms
+2021-02-16 19:46:05.430 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:46:05.447 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.451 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:46:05.460 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 29.8715ms
+2021-02-16 19:46:55.763 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 19:46:56.014 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 19:46:56.329 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:46:56.389 +02:00 [INF] Hosting environment: Development
+2021-02-16 19:46:56.415 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 19:46:56.507 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:46:56.530 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:46:56.539 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 252.0572ms
+2021-02-16 19:47:15.759 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:47:15.768 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:47:15.771 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:47:15.795 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 35.8506ms
+2021-02-16 19:47:15.841 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-16 19:47:15.854 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-16 19:47:15.855 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-16 19:47:15.855 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-16 19:47:15.867 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:15.860 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:15.862 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 7.4074ms
+2021-02-16 19:47:15.865 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:15.856 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-16 19:47:15.884 +02:00 [INF] Got parameters from request: [2]
+2021-02-16 19:47:15.884 +02:00 [INF] Got parameters from request: [-250]
+2021-02-16 19:47:15.884 +02:00 [INF] Got parameters from request: [0]
+2021-02-16 19:47:15.886 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:15.890 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-16 19:47:15.890 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-16 19:47:15.893 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-16 19:47:15.898 +02:00 [INF] Got parameters from request: [51673]
+2021-02-16 19:47:15.904 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:15.906 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:15.911 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:15.918 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-16 19:47:15.931 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 75.6296ms
+2021-02-16 19:47:15.945 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 90.3498ms
+2021-02-16 19:47:15.951 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 110.0188ms
+2021-02-16 19:47:15.964 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:47:16.002 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 145.7241ms
+2021-02-16 19:47:16.076 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:47:16.076 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-16 19:47:16.076 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:47:16.076 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:47:16.078 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:47:16.098 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.101 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.105 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.107 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.111 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.123 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:47:16.123 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:47:16.124 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:47:16.127 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:47:16.131 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.148 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 70.0635ms
+2021-02-16 19:47:16.153 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:47:16.153 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:47:16.153 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:47:16.154 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:47:16.160 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:47:16.162 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:47:16.166 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:47:16.171 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:47:16.197 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.199 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.207 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 130.7533ms
+2021-02-16 19:47:16.202 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.199 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:47:16.218 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 400 - - 141.5004ms
+2021-02-16 19:47:16.215 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 138.9115ms
+2021-02-16 19:47:16.207 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 131.4954ms
+2021-02-16 19:49:10.107 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 19:49:10.175 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 19:49:10.177 +02:00 [INF] Hosting environment: Development
+2021-02-16 19:49:10.181 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 19:49:10.920 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:49:11.166 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:49:11.184 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:49:11.197 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 285.9006ms
+2021-02-16 19:49:22.630 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:49:22.632 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:49:22.634 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:49:22.644 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 14.6336ms
+2021-02-16 19:49:22.719 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-16 19:49:22.764 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-16 19:49:22.784 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.774 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-16 19:49:22.796 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.783 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.805 +02:00 [INF] Got parameters from request: [2]
+2021-02-16 19:49:22.776 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-16 19:49:22.805 +02:00 [INF] Got parameters from request: [51673]
+2021-02-16 19:49:22.806 +02:00 [INF] Got parameters from request: [0]
+2021-02-16 19:49:22.766 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-16 19:49:22.810 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-16 19:49:22.811 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.813 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-16 19:49:22.815 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-16 19:49:22.817 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 50.4527ms
+2021-02-16 19:49:22.822 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.824 +02:00 [INF] Got parameters from request: [-250]
+2021-02-16 19:49:22.840 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-16 19:49:22.842 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.840 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 65.0492ms
+2021-02-16 19:49:22.827 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.853 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 89.1551ms
+2021-02-16 19:49:22.845 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 68.7130ms
+2021-02-16 19:49:22.830 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:49:22.860 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 140.1626ms
+2021-02-16 19:49:22.875 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:49:22.876 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-16 19:49:22.876 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:49:22.876 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:49:22.876 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:49:22.881 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.883 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.885 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.887 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.889 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.901 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:49:22.901 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:49:22.901 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:49:22.901 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:49:22.903 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.917 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:49:22.917 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:49:22.922 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:49:22.917 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:49:22.918 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 41.8551ms
+2021-02-16 19:49:22.922 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:49:22.917 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:49:22.928 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.931 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:49:22.936 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.938 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:49:22.946 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 400 - - 70.0540ms
+2021-02-16 19:49:22.948 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.950 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 74.0869ms
+2021-02-16 19:49:22.952 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:49:22.957 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 80.9608ms
+2021-02-16 19:49:22.964 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 89.3859ms
+2021-02-16 19:54:18.456 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 19:54:18.534 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 19:54:18.537 +02:00 [INF] Hosting environment: Development
+2021-02-16 19:54:18.539 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-16 19:54:19.041 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:54:19.241 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:54:19.263 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:54:19.279 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 240.4366ms
+2021-02-16 19:54:26.789 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-16 19:54:26.792 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 19:54:26.795 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 19:54:26.798 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 9.2207ms
+2021-02-16 19:54:26.839 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-16 19:54:26.842 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-16 19:54:26.842 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-16 19:54:26.844 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-16 19:54:26.844 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-16 19:54:26.846 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.847 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 5.1577ms
+2021-02-16 19:54:26.848 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.850 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.851 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.863 +02:00 [INF] Got parameters from request: [-250]
+2021-02-16 19:54:26.863 +02:00 [INF] Got parameters from request: [0]
+2021-02-16 19:54:26.863 +02:00 [INF] Got parameters from request: [2]
+2021-02-16 19:54:26.865 +02:00 [INF] Got parameters from request: [51673]
+2021-02-16 19:54:26.865 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-16 19:54:26.869 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-16 19:54:26.873 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-16 19:54:26.874 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-16 19:54:26.876 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.877 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.878 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.892 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 49.7601ms
+2021-02-16 19:54:26.885 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 40.9142ms
+2021-02-16 19:54:26.890 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 50.6017ms
+2021-02-16 19:54:26.880 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 19:54:26.904 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 60.5872ms
+2021-02-16 19:54:26.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:54:26.917 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-16 19:54:26.917 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-16 19:54:26.924 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:26.917 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-16 19:54:26.921 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:26.923 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:26.917 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-16 19:54:26.937 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-16 19:54:26.967 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:26.969 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:54:26.971 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-16 19:54:26.973 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:26.981 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:26.991 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:54:26.991 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:54:26.991 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:54:26.997 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-16 19:54:26.999 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 82.2271ms
+2021-02-16 19:54:27.002 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:54:27.003 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:54:27.006 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:54:27.011 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:54:27.028 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:54:27.031 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:27.022 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:27.019 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:27.020 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:27.035 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 118.5916ms
+2021-02-16 19:54:27.038 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 122.1288ms
+2021-02-16 19:54:27.048 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 131.4870ms
+2021-02-16 19:54:27.052 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 200 - - 135.4893ms
+2021-02-16 19:54:32.747 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-16 19:54:32.766 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:32.776 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-16 19:54:32.778 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-16 19:54:32.781 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:54:32.783 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:32.786 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 39.5112ms
+2021-02-16 19:54:36.593 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=gfds - -
+2021-02-16 19:54:36.597 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:36.600 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:36.605 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=gfds - - - 400 - - 11.9421ms
+2021-02-16 19:54:40.999 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=0 - -
+2021-02-16 19:54:41.003 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 19:54:41.009 +02:00 [INF] Got parameters from request: [0;0]
+2021-02-16 19:54:41.012 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-16 19:54:41.016 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-16 19:54:41.022 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 19:54:41.027 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=0 - - - 400 - - 27.5279ms
