@@ -7,6 +7,6 @@ namespace PM_HW_9.Services.Interfaces
         
         Task<Result> GetPrimes();
 
-        Task<bool> IsPrime(int number);
+        Task<bool> IsPrime();
     }
 }

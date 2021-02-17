@@ -42,27 +42,26 @@ namespace PM_HW_9.Services
             return task;
 
         }
-
+        
         /// <summary>
         /// Checks if given number is a prime
         /// </summary>
-        /// <param name="number">input number</param>
         /// <returns>boolean</returns>
-        public Task<bool> IsPrime(int number)
+        public Task<bool> IsPrime()
         {
-            _logger.LogInformation($"Got parameters from request: [{number}]");
-            if (number < 2)
+            _logger.LogInformation($"Got parameters from request: [{_settings.PrimeFrom}]");
+            if (_settings.PrimeFrom < 2)
             {
-                _logger.LogError($"Exception. Number {number} is less than 2");
+                _logger.LogError($"Exception. Number {_settings.PrimeFrom} is less than 2");
                 
                 return Task.FromResult(false);
             }
                 
             var isPrime =
-                Enumerable.Range(2, (int)Math.Sqrt(number) - 1)
-                    .All(divisor => number % divisor != 0);
+                Enumerable.Range(2, (int)Math.Sqrt(_settings.PrimeFrom) - 1)
+                    .All(divisor => _settings.PrimeFrom % divisor != 0);
             
-            _logger.LogInformation($"Algorithm passed. Number {number} is prime? {isPrime}");
+            _logger.LogInformation($"Algorithm passed. Number {_settings.PrimeFrom} is prime? {isPrime}");
             
             return Task.FromResult(isPrime);
         }

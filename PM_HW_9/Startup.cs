@@ -18,7 +18,6 @@ namespace PM_HW_9
             services.AddTransient<IPrimeAlgorithm, PrimeAlgorithm>();
         }
         
-       
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -38,11 +37,15 @@ namespace PM_HW_9
                 {
                     var service 
                         = context.RequestServices.GetRequiredService<IPrimeAlgorithm>();
+                    var settings
+                        = context.RequestServices.GetRequiredService<ISettings>();
                    
                     var item = (string) context.Request.RouteValues["number"];
                     int.TryParse(item, out var number);
-                    
-                    var isPrime = await service.IsPrime(number);
+
+                    settings.PrimeFrom = number;
+
+                    var isPrime = await service.IsPrime();
 
                     context.Response.StatusCode = isPrime
                         ? (int) HttpStatusCode.OK
@@ -68,8 +71,8 @@ namespace PM_HW_9
                         int.TryParse(inputPrimeTo, out var primeTo))
                     {
                         settings.PrimeFrom = primeFrom;
-                        settings.PrimeTo = primeTo; 
-                        
+                        settings.PrimeTo = primeTo;
+
                         var result = await service.GetPrimes();
 
                         if (result.Primes is null)
