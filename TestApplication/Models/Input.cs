@@ -19,7 +19,7 @@ namespace TestApplication.Models
             return deserialized;
         }
         [JsonProperty("landingtest")]
-        public string LandingTest { get; set; }
+        public Uri LandingTest { get; set; }
         
         [JsonProperty("isprime")]
         public Dictionary<string,HttpStatusCode> IsPrime { get; set; }
@@ -33,12 +33,12 @@ namespace TestApplication.Models
             var result = false;
             try
             {
-                HttpResponseMessage responseMessage
-                    = await httpClient.GetAsync(new Uri(LandingTest));
+                var responseMessage
+                    = await httpClient.GetAsync(httpClient.BaseAddress);
                 responseMessage.EnsureSuccessStatusCode();
-                string responseBody = await responseMessage.Content.ReadAsStringAsync();
+                var responseBody = await responseMessage.Content.ReadAsStringAsync();
 
-                var expectedOutput = " PM_HW_9, Web service <<Prime Numbers>>\n Volokhovych Ihor ";
+                const string expectedOutput = " PM_HW_9, Web service <<Prime Numbers>>\n Volokhovych Ihor ";
 
                 if (responseBody.Equals(expectedOutput))
                 {
@@ -81,20 +81,22 @@ namespace TestApplication.Models
         #region PrivateTestMethods
         private async Task InternalTestIsPrime(HttpClient httpClient, string key, HttpStatusCode value)
         {
+            var inputUri = new Uri(httpClient.BaseAddress + key);
+            
             try
             {
                 var responseMessage
-                    = await httpClient.GetAsync(new Uri(key));
+                    = await httpClient.GetAsync(inputUri);
 
                 if (responseMessage.StatusCode.Equals(value))
                 {
-                    Console.WriteLine($"Input URL: [{key}]\nExpected: [{value}]\n" +
+                    Console.WriteLine($"Input URL: [{inputUri}]\nExpected: [{value}]\n" +
                                       $"Received: [{responseMessage.StatusCode}]\n" +
                                       $"Test passed: [{value == responseMessage.StatusCode}]\n");
                 }
                 else
                 {
-                    Console.WriteLine($"Input URL: [{key}]\n" +
+                    Console.WriteLine($"Input URL: [{inputUri}]\n" +
                                       $"Expected: [{value}]\n" +
                                       $"Received: [{responseMessage.StatusCode}]\n" +
                                       $"Test passed: [{value == responseMessage.StatusCode}]\n");
@@ -111,10 +113,12 @@ namespace TestApplication.Models
 
         private async Task InternalTestGetPrimes(HttpClient httpClient, string key, IReadOnlyCollection<int> value)
         {
+            
             try
             {
+                var inputUri = httpClient.BaseAddress + key;
                 var responseMessage
-                    = await httpClient.GetAsync(new Uri(key));
+                    = await httpClient.GetAsync(inputUri);
 
                 var responseBody = await responseMessage.Content.ReadAsStringAsync();
 
@@ -128,15 +132,15 @@ namespace TestApplication.Models
                     
                     if (value.All(numbers.Contains) && value.Count == numbers.Count)
                     {
-                        Console.WriteLine($"Input URL: [{key}]\nExpected: [{string.Join(",", value)}]\n" +
+                        Console.WriteLine($"Input URL: [{inputUri}]\nExpected: [{string.Join(",", value)}]\n" +
                                           $"Received: [{responseBody}]\n" +
                                           $"Test passed: [{true}]\n");
                     }
                 }
                 else
                 {
-                    Console.WriteLine($"Input URL: [{key}]\nExpected Code:[{HttpStatusCode.BadRequest}]\n" +
-                                      $"Received:[{responseMessage.StatusCode}]\n" +
+                    Console.WriteLine($"Input URL: [{inputUri}]\nExpected Code:[{HttpStatusCode.BadRequest}]\n" +
+                                      $"Received Code:[{responseMessage.StatusCode}]\n" +
                                       $"Test passed: [{responseMessage.StatusCode == HttpStatusCode.BadRequest}]\n");
                 }
             }
@@ -162,7 +166,7 @@ namespace TestApplication.Models
             
             
             Console.WriteLine("landing_test Link:");
-            LandingTest = Console.ReadLine() ?? throw new InvalidOperationException();
+            LandingTest = new Uri(Console.ReadLine() ?? throw new InvalidOperationException());
             
             Console.WriteLine("is prime Link:");
             

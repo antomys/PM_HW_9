@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net;
 
 namespace TestApplication.Models
 {
     public interface IInput
     {
-        string LandingTest { get; set; }
+        Uri LandingTest { get; set; }
         
         Dictionary<string,HttpStatusCode> IsPrime { get; set; }
         

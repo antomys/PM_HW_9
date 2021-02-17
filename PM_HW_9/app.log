@@ -4222,3 +4222,553 @@ Algorithm method. Line 28
 2021-02-17 16:56:32.438 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
 2021-02-17 16:56:32.446 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
 2021-02-17 16:56:32.448 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 130.0738ms
+2021-02-17 19:00:45.484 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-17 19:00:45.836 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-17 19:00:45.867 +02:00 [INF] Hosting environment: Development
+2021-02-17 19:00:45.888 +02:00 [INF] Content root path: C:\Users\deqqu\RiderProjects\PM_HW_9\PM_HW_9
+2021-02-17 19:00:46.582 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:00:46.746 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:00:46.773 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:00:46.787 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 216.1698ms
+2021-02-17 19:05:56.201 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:05:56.240 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.245 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.255 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 54.5313ms
+2021-02-17 19:05:56.307 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:05:56.311 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:05:56.311 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:05:56.313 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:05:56.323 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 16.7696ms
+2021-02-17 19:05:56.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 13.9338ms
+2021-02-17 19:05:56.327 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 15.6716ms
+2021-02-17 19:05:56.329 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 15.6511ms
+2021-02-17 19:05:56.455 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:05:56.470 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 15.9333ms
+2021-02-17 19:05:56.486 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:05:56.486 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - -
+2021-02-17 19:05:56.486 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - -
+2021-02-17 19:05:56.496 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.499 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.493 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.504 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.488 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.519 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.487 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=string&to=string - -
+2021-02-17 19:05:56.532 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.535 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.544 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=string&to=string - - - 200 - - 56.9048ms
+2021-02-17 19:05:56.550 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=0&to=10 - -
+2021-02-17 19:05:56.552 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.555 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:05:56.558 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=0&to=10 - - - 200 - - 8.4750ms
+2021-02-17 19:05:56.502 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - - - 200 - - 15.1907ms
+2021-02-17 19:05:56.521 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 35.7950ms
+2021-02-17 19:05:56.516 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - - - 200 - - 30.1047ms
+2021-02-17 19:06:48.752 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:06:48.756 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:06:48.761 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:06:48.779 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 27.0582ms
+2021-02-17 19:06:48.860 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:06:48.872 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 12.4126ms
+2021-02-17 19:06:48.956 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:06:48.956 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:06:48.959 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:06:48.981 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 24.9905ms
+2021-02-17 19:06:48.983 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 26.3430ms
+2021-02-17 19:06:48.988 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 29.0572ms
+2021-02-17 19:06:49.023 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:06:49.048 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 24.6620ms
+2021-02-17 19:07:05.829 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:07:05.832 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:07:05.835 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:07:05.837 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 8.7529ms
+2021-02-17 19:07:36.419 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - -
+2021-02-17 19:07:36.427 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:07:36.430 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:07:36.432 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - - - 200 - - 12.8035ms
+2021-02-17 19:07:46.894 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - -
+2021-02-17 19:07:46.894 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=string&to=string - -
+2021-02-17 19:07:46.899 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:07:46.898 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:07:46.895 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=0&to=10 - -
+2021-02-17 19:07:46.902 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:07:46.905 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:07:46.909 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:07:46.929 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:07:46.922 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=string&to=string - - - 200 - - 27.6102ms
+2021-02-17 19:07:46.922 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - - - 200 - - 28.1308ms
+2021-02-17 19:07:46.932 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=0&to=10 - - - 200 - - 36.5381ms
+2021-02-17 19:08:31.712 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:08:31.715 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:08:31.719 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:08:31.747 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 35.6357ms
+2021-02-17 19:08:31.821 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:08:31.824 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 2.3794ms
+2021-02-17 19:08:31.881 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:08:31.920 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 38.4487ms
+2021-02-17 19:08:31.927 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:08:31.950 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 22.8851ms
+2021-02-17 19:08:31.945 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:08:31.932 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:08:31.962 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 16.1549ms
+2021-02-17 19:08:31.965 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 32.7238ms
+2021-02-17 19:08:47.852 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:08:47.853 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:08:47.855 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:08:47.858 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 6.1192ms
+2021-02-17 19:08:52.268 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - -
+2021-02-17 19:08:52.305 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:08:52.313 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:08:52.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - - - 200 - - 50.7371ms
+2021-02-17 19:08:56.248 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - -
+2021-02-17 19:08:56.250 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:08:56.253 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:08:56.256 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - - - 200 - - 7.9974ms
+2021-02-17 19:09:00.328 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=string&to=string - -
+2021-02-17 19:09:00.330 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:09:00.333 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:09:00.336 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=string&to=string - - - 200 - - 7.8018ms
+2021-02-17 19:09:06.442 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=0&to=10 - -
+2021-02-17 19:09:06.452 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:09:06.460 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:09:06.466 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=0&to=10 - - - 200 - - 24.4828ms
+2021-02-17 19:09:36.179 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:09:36.184 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:09:36.187 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:09:36.189 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 10.2020ms
+2021-02-17 19:09:36.280 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:09:36.282 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 1.9830ms
+2021-02-17 19:09:36.320 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:09:36.326 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 7.1086ms
+2021-02-17 19:09:36.337 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:09:36.337 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:09:36.343 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 5.5512ms
+2021-02-17 19:09:36.344 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 7.2554ms
+2021-02-17 19:09:36.370 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:09:36.375 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 5.2910ms
+2021-02-17 19:09:40.171 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:09:40.191 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:09:40.193 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:09:40.195 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 24.3708ms
+2021-02-17 19:09:41.205 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - -
+2021-02-17 19:09:41.207 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:09:41.210 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:09:41.214 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=0&to=5 - - - 200 - - 8.8384ms
+2021-02-17 19:09:42.032 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - -
+2021-02-17 19:09:42.037 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:09:42.039 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:09:42.041 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=400&to=5 - - - 200 - - 9.1126ms
+2021-02-17 19:09:45.267 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=string&to=string - -
+2021-02-17 19:09:45.278 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:09:45.280 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:09:45.283 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=string&to=string - - - 200 - - 16.4219ms
+2021-02-17 19:10:23.825 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:10:23.827 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:10:23.830 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:10:23.832 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 7.3201ms
+2021-02-17 19:10:23.913 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:10:23.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 2.4682ms
+2021-02-17 19:10:23.950 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:10:23.960 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 10.2932ms
+2021-02-17 19:10:23.968 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:10:23.969 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:10:23.969 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:10:23.977 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 8.7459ms
+2021-02-17 19:10:23.978 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 9.4540ms
+2021-02-17 19:10:23.980 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 11.3178ms
+2021-02-17 19:10:33.286 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:10:33.288 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:10:33.292 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:10:33.294 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 7.7924ms
+2021-02-17 19:12:02.066 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:12:02.068 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:12:02.071 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:12:02.076 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 9.4641ms
+2021-02-17 19:12:02.106 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:12:02.108 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 2.0475ms
+2021-02-17 19:12:02.116 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:12:02.117 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:12:02.117 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:12:02.118 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:12:02.121 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 4.6031ms
+2021-02-17 19:12:02.123 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 6.2216ms
+2021-02-17 19:12:02.126 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 9.0596ms
+2021-02-17 19:12:02.128 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 9.2886ms
+2021-02-17 19:12:45.475 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:12:45.477 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:12:45.479 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:12:45.485 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 10.7424ms
+2021-02-17 19:12:45.560 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:12:45.562 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 1.9949ms
+2021-02-17 19:12:45.622 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:12:45.622 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:12:45.622 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:12:45.626 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 3.6682ms
+2021-02-17 19:12:45.628 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 5.7183ms
+2021-02-17 19:12:45.630 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 7.5993ms
+2021-02-17 19:12:45.654 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:12:45.662 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 8.6889ms
+2021-02-17 19:12:50.682 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:12:50.684 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:12:50.690 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:12:50.694 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 11.4709ms
+2021-02-17 19:13:23.493 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:13:23.501 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:13:23.503 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:13:23.510 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 17.3414ms
+2021-02-17 19:13:23.658 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:13:23.664 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 5.9612ms
+2021-02-17 19:13:23.730 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:13:23.730 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:13:23.742 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 11.2584ms
+2021-02-17 19:13:23.736 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:13:23.739 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 9.6009ms
+2021-02-17 19:13:23.736 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:13:23.746 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 10.1219ms
+2021-02-17 19:13:23.751 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 15.1965ms
+2021-02-17 19:13:36.977 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:13:36.981 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:13:36.988 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:13:36.993 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 15.7566ms
+2021-02-17 19:15:41.056 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:15:41.059 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:15:41.062 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:15:41.064 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 8.3277ms
+2021-02-17 19:15:41.138 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:15:41.140 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 2.0871ms
+2021-02-17 19:15:41.170 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:15:41.172 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:15:41.182 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 9.9087ms
+2021-02-17 19:15:41.175 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:15:41.181 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 14.1447ms
+2021-02-17 19:15:41.172 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:15:41.186 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 11.1661ms
+2021-02-17 19:15:41.190 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 17.3755ms
+2021-02-17 19:15:46.166 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:15:46.169 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:15:46.172 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:15:46.174 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 7.8748ms
+2021-02-17 19:27:14.845 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:27:14.868 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:27:14.870 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:27:14.875 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 29.8144ms
+2021-02-17 19:27:15.009 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:27:15.012 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 2.8429ms
+2021-02-17 19:27:15.103 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:27:15.171 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 68.1881ms
+2021-02-17 19:27:15.192 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:27:15.204 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:27:15.214 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 21.8901ms
+2021-02-17 19:27:15.220 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 15.0497ms
+2021-02-17 19:27:15.220 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:27:15.260 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 40.0967ms
+2021-02-17 19:27:31.604 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:27:31.606 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:27:31.611 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:27:31.613 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 8.8292ms
+2021-02-17 19:28:58.713 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:28:58.715 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:28:58.717 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:28:58.721 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 8.2055ms
+2021-02-17 19:29:23.957 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:29:23.961 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:29:23.963 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:29:23.966 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 8.7333ms
+2021-02-17 19:29:24.053 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/0 - -
+2021-02-17 19:29:24.056 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/0 - - - 404 0 - 2.2500ms
+2021-02-17 19:29:24.084 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/string - -
+2021-02-17 19:29:24.096 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/string - - - 404 0 - 11.6137ms
+2021-02-17 19:29:24.114 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/51673 - -
+2021-02-17 19:29:24.114 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/-250 - -
+2021-02-17 19:29:24.116 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/2 - -
+2021-02-17 19:29:24.119 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/51673 - - - 404 0 - 5.0078ms
+2021-02-17 19:29:24.121 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/-250 - - - 404 0 - 6.9729ms
+2021-02-17 19:29:24.123 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/2 - - - 404 0 - 7.4247ms
+2021-02-17 19:29:46.611 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - -
+2021-02-17 19:29:46.616 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:29:46.619 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:29:46.624 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/?from=-402&to=1 - - - 200 - - 13.7851ms
+2021-02-17 19:30:12.632 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-17 19:30:12.635 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:30:12.652 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-17 19:30:12.659 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:30:12.662 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:30:12.669 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:30:12.675 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 42.9542ms
+2021-02-17 19:30:30.427 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:30:30.430 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:30:30.432 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:30:30.435 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 7.9599ms
+2021-02-17 19:30:30.467 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/0 - -
+2021-02-17 19:30:30.470 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/0 - - - 404 0 - 2.2342ms
+2021-02-17 19:30:30.477 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/2 - -
+2021-02-17 19:30:30.477 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/-250 - -
+2021-02-17 19:30:30.478 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/string - -
+2021-02-17 19:30:30.478 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/51673 - -
+2021-02-17 19:30:30.480 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/2 - - - 404 0 - 2.8082ms
+2021-02-17 19:30:30.484 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/-250 - - - 404 0 - 7.2439ms
+2021-02-17 19:30:30.487 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/string - - - 404 0 - 8.7659ms
+2021-02-17 19:30:30.488 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/51673 - - - 404 0 - 10.4092ms
+2021-02-17 19:30:30.504 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/?from=-402&to=1 - -
+2021-02-17 19:30:30.506 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/?from=-402&to=1 - - - 404 0 - 1.7720ms
+2021-02-17 19:30:30.509 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/?from=0&to=5 - -
+2021-02-17 19:30:30.513 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/?from=0&to=5 - - - 404 0 - 4.2684ms
+2021-02-17 19:30:30.517 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/?from=400&to=5 - -
+2021-02-17 19:30:30.519 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/?from=400&to=5 - - - 404 0 - 2.1378ms
+2021-02-17 19:30:30.522 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/?from=string&to=string - -
+2021-02-17 19:30:30.524 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/?from=string&to=string - - - 404 0 - 2.0997ms
+2021-02-17 19:30:30.526 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000//primes/?from=0&to=10 - -
+2021-02-17 19:30:30.528 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000//primes/?from=0&to=10 - - - 404 0 - 1.5983ms
+2021-02-17 19:30:55.089 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:30:55.091 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:30:55.094 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:30:55.096 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 7.1032ms
+2021-02-17 19:30:55.127 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-17 19:30:55.130 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.136 +02:00 [INF] Got parameters from request: [0]
+2021-02-17 19:30:55.138 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-17 19:30:55.141 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.147 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-17 19:30:55.147 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-17 19:30:55.147 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-17 19:30:55.148 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 21.1088ms
+2021-02-17 19:30:55.152 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.154 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.156 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 8.7022ms
+2021-02-17 19:30:55.158 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-17 19:30:55.164 +02:00 [INF] Got parameters from request: [-250]
+2021-02-17 19:30:55.166 +02:00 [INF] Got parameters from request: [2]
+2021-02-17 19:30:55.171 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.174 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-17 19:30:55.175 +02:00 [INF] Algorithm passed. Number 2 is prime? True
+2021-02-17 19:30:55.179 +02:00 [INF] Got parameters from request: [51673]
+2021-02-17 19:30:55.181 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.183 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.186 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-17 19:30:55.197 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:30:55.213 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 54.5498ms
+2021-02-17 19:30:55.188 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 200 0 - 40.7650ms
+2021-02-17 19:30:55.193 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 45.8208ms
+2021-02-17 19:30:55.227 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-17 19:30:55.229 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.232 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-17 19:30:55.233 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:30:55.235 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:30:55.237 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.246 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 200 - - 18.7299ms
+2021-02-17 19:30:55.254 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-17 19:30:55.256 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.259 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-17 19:30:55.261 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:30:55.262 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:30:55.264 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.267 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 12.3947ms
+2021-02-17 19:30:55.274 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-17 19:30:55.276 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.278 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-17 19:30:55.281 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-17 19:30:55.283 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:30:55.290 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.293 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 19.3830ms
+2021-02-17 19:30:55.296 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-17 19:30:55.297 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.300 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.307 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 10.6981ms
+2021-02-17 19:30:55.310 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-17 19:30:55.312 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.314 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-17 19:30:55.318 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:30:55.320 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:30:55.322 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:30:55.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 14.7177ms
+2021-02-17 19:31:54.507 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:31:54.509 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:31:54.512 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:31:54.515 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 8.4114ms
+2021-02-17 19:31:54.546 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-17 19:31:54.548 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.551 +02:00 [INF] Got parameters from request: [0]
+2021-02-17 19:31:54.555 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-17 19:31:54.555 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-17 19:31:54.555 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-17 19:31:54.556 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-17 19:31:54.557 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.559 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 4.1849ms
+2021-02-17 19:31:54.561 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.562 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.564 +02:00 [INF] Got parameters from request: [2]
+2021-02-17 19:31:54.571 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-17 19:31:54.575 +02:00 [INF] Got parameters from request: [51673]
+2021-02-17 19:31:54.577 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 31.1899ms
+2021-02-17 19:31:54.580 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-17 19:31:54.591 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.587 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-17 19:31:54.585 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.593 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 38.1211ms
+2021-02-17 19:31:54.595 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.599 +02:00 [INF] Got parameters from request: [-250]
+2021-02-17 19:31:54.604 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 48.9094ms
+2021-02-17 19:31:54.606 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-17 19:31:54.611 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:31:54.618 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 47.1110ms
+2021-02-17 19:31:54.633 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-17 19:31:54.633 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-17 19:31:54.633 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-17 19:31:54.633 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-17 19:31:54.635 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.646 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-17 19:31:54.649 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:31:54.652 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:31:54.654 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.656 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 200 - - 23.5363ms
+2021-02-17 19:31:54.658 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-17 19:31:54.637 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.668 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-17 19:31:54.642 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.672 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:31:54.639 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.665 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.672 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.674 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:31:54.680 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-17 19:31:54.682 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-17 19:31:54.690 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:31:54.686 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.685 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 51.5192ms
+2021-02-17 19:31:54.694 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:31:54.701 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:31:54.703 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.705 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 71.9933ms
+2021-02-17 19:31:54.697 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 63.7673ms
+2021-02-17 19:31:54.694 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:31:54.716 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:31:54.718 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 59.6741ms
+2021-02-17 19:32:21.787 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:32:21.790 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:32:21.793 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:32:21.796 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 8.7773ms
+2021-02-17 19:32:21.828 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-17 19:32:21.830 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.832 +02:00 [INF] Got parameters from request: [0]
+2021-02-17 19:32:21.834 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-17 19:32:21.836 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.843 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 15.2304ms
+2021-02-17 19:32:21.851 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-17 19:32:21.851 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-17 19:32:21.851 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-17 19:32:21.851 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-17 19:32:21.858 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 7.8132ms
+2021-02-17 19:32:21.861 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.862 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.864 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.867 +02:00 [INF] Got parameters from request: [51673]
+2021-02-17 19:32:21.875 +02:00 [INF] Got parameters from request: [2]
+2021-02-17 19:32:21.877 +02:00 [INF] Got parameters from request: [-250]
+2021-02-17 19:32:21.879 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-17 19:32:21.881 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-17 19:32:21.886 +02:00 [ERR] Exception. Number -250 is less than 2
+2021-02-17 19:32:21.888 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.890 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.892 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:21.901 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 404 0 - 50.4244ms
+2021-02-17 19:32:21.897 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 404 0 - 45.7227ms
+2021-02-17 19:32:21.894 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 404 0 - 43.4990ms
+2021-02-17 19:32:21.924 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-17 19:32:21.924 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-17 19:32:21.924 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-17 19:32:21.932 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.924 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-17 19:32:21.936 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.938 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-17 19:32:21.924 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-17 19:32:21.934 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-17 19:32:21.927 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.928 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.940 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:32:21.943 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.947 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:32:21.965 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:21.967 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.956 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:21.971 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.952 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-17 19:32:21.975 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:32:21.982 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:21.959 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.973 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 200 - - 48.6904ms
+2021-02-17 19:32:21.955 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-17 19:32:21.969 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 200 - - 44.6084ms
+2021-02-17 19:32:21.984 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.998 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 200 - - 74.3128ms
+2021-02-17 19:32:21.990 +02:00 [INF] Successfully made everything. Creating new Result object
+2021-02-17 19:32:22.002 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:22.004 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:21.986 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 61.8969ms
+2021-02-17 19:32:22.006 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 200 - - 82.2498ms
+2021-02-17 19:32:45.555 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-02-17 19:32:45.557 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 19:32:45.560 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 19:32:45.562 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - - 7.1773ms
+2021-02-17 19:32:45.592 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/0 - -
+2021-02-17 19:32:45.594 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.596 +02:00 [INF] Got parameters from request: [0]
+2021-02-17 19:32:45.598 +02:00 [ERR] Exception. Number 0 is less than 2
+2021-02-17 19:32:45.600 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.602 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/0 - - - 404 0 - 9.9285ms
+2021-02-17 19:32:45.613 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/2 - -
+2021-02-17 19:32:45.614 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/-250 - -
+2021-02-17 19:32:45.614 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/string - -
+2021-02-17 19:32:45.614 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/51673 - -
+2021-02-17 19:32:45.619 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.621 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/string - - - 404 0 - 8.8641ms
+2021-02-17 19:32:45.625 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.630 +02:00 [INF] Got parameters from request: [2]
+2021-02-17 19:32:45.632 +02:00 [INF] Got parameters from request: [-250]
+2021-02-17 19:32:45.637 +02:00 [INF] Got parameters from request: [51673]
+2021-02-17 19:32:45.638 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-17 19:32:45.640 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-17 19:32:45.644 +02:00 [INF] Algorithm passed. Number 51673 is prime? True
+2021-02-17 19:32:45.646 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.648 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.650 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-17 19:32:45.652 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/2 - - - 200 0 - 39.5855ms
+2021-02-17 19:32:45.655 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/-250 - - - 200 0 - 40.4782ms
+2021-02-17 19:32:45.659 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/51673 - - - 200 0 - 45.2708ms
+2021-02-17 19:32:45.684 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - -
+2021-02-17 19:32:45.686 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.683 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - -
+2021-02-17 19:32:45.683 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - -
+2021-02-17 19:32:45.683 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - -
+2021-02-17 19:32:45.683 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - -
+2021-02-17 19:32:45.689 +02:00 [INF] Got parameters from request: [-402;1]
+2021-02-17 19:32:45.691 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.693 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.695 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.696 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.700 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.702 +02:00 [INF] Got parameters from request: [0;10]
+2021-02-17 19:32:45.706 +02:00 [INF] Got parameters from request: [0;5]
+2021-02-17 19:32:45.712 +02:00 [INF] Got parameters from request: [400;5]
+2021-02-17 19:32:45.714 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=string&to=string - - - 400 - - 30.2725ms
+2021-02-17 19:32:45.716 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-17 19:32:45.719 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-17 19:32:45.721 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-17 19:32:45.725 +02:00 [WRN] Out of range exception at Prime
+Algorithm method. Line 28
+2021-02-17 19:32:45.728 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:45.730 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:45.732 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:45.734 +02:00 [INF] Method GetPrimes in class PrimeAlgorithm.cs Operated successfully
+2021-02-17 19:32:45.738 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.739 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.741 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.742 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-17 19:32:45.744 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=10 - - - 400 - - 60.7503ms
+2021-02-17 19:32:45.747 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=400&to=5 - - - 400 - - 63.4206ms
+2021-02-17 19:32:45.748 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=0&to=5 - - - 400 - - 65.4061ms
+2021-02-17 19:32:45.750 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/primes/?from=-402&to=1 - - - 400 - - 65.8072ms

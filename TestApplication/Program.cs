@@ -11,6 +11,7 @@ namespace TestApplication
 
         private static async Task Main()
         {
+            Client.BaseAddress = new Uri("http://localhost:5000/");
             var input = Input.Construct();
 
             Console.WriteLine("*********************************************");
