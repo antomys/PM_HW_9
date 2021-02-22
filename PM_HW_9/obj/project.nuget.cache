@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k2iOyLaLBK3NcTkP8F7xFlC054oID0TH/HiXyCzxKyOmOlED789HWsP1mDj2HoTz7ROX/CimQkg9EBf/R0Ylcw==",
+  "dgSpecHash": "1+FNiWOF6DI2Urhf2l0g2jl14b90CZEemAYkqDs3M+GGDSpV2vvPhgrqqcenE+FaKCV7vWg+7F+OEoAzRmvTFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\PM_HW_9\\PM_HW_9.csproj",
+  "projectFilePath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_99\\PM_HW_9\\PM_HW_9.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\deqqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",

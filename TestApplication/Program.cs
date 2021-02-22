@@ -1,6 +1,11 @@
 ﻿using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using TestApplication.Models;
 
 namespace TestApplication
@@ -12,14 +17,10 @@ namespace TestApplication
         private static async Task Main()
         {
             Client.BaseAddress = new Uri("http://localhost:5000/");
-            var input = Input.Construct();
-
-            Console.WriteLine("*********************************************");
-            await input.TestLandingPage(Client);
-            Console.WriteLine("*********************************************");
+            var input = new Input();
+            
             await input.TestIsPrime(Client);
-            Console.WriteLine("*********************************************");
-            await input.TestGetPrimes(Client);
+            //input.SyncTest(Client);
         }
     }
 }

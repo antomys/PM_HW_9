@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\TestApplication\\TestApplication.csproj",
+      "projectUniqueName": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_99\\TestApplication\\TestApplication.csproj",
       "projectName": "TestApplication",
-      "projectPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\TestApplication\\TestApplication.csproj",
+      "projectPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_99\\TestApplication\\TestApplication.csproj",
       "packagesPath": "C:\\Users\\deqqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\TestApplication\\obj\\",
+      "outputPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_99\\TestApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deqqu\\AppData\\Roaming\\NuGet\\NuGet.Config"

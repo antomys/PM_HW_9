@@ -388,11 +388,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\PM_HW_9\\PM_HW_9.csproj",
+      "projectUniqueName": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_99\\PM_HW_9\\PM_HW_9.csproj",
       "projectName": "PM_HW_9",
-      "projectPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\PM_HW_9\\PM_HW_9.csproj",
+      "projectPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_99\\PM_HW_9\\PM_HW_9.csproj",
       "packagesPath": "C:\\Users\\deqqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_9\\PM_HW_9\\obj\\",
+      "outputPath": "C:\\Users\\deqqu\\RiderProjects\\PM_HW_99\\PM_HW_9\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deqqu\\AppData\\Roaming\\NuGet\\NuGet.Config"

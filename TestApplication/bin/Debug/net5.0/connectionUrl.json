@@ -1,0 +1,26 @@
+{
+  "landingtest": "http://localhost:5000/",
+  "isprime": {
+    "primes/0": 404,
+    "primes/2": 200,
+    "primes/string": 404,
+    "primes/-250": 404,
+    "primes/51673": 200
+  },
+  "getprimes": {
+    "primes/?from=-402&to=1": [],
+    "primes/?from=0&to=5": [
+      2,
+      3,
+      5
+    ],
+    "primes/?from=400&to=5": [],
+    "primes/?from=string&to=string": [],
+    "primes/?from=0&to=10": [
+      2,
+      3,
+      5,
+      7
+    ]
+  }
+}
