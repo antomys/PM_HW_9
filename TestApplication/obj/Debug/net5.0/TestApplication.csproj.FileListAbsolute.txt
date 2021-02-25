@@ -17,3 +17,4 @@ C:\Users\deqqu\RiderProjects\PM_HW_99\TestApplication\obj\Debug\net5.0\TestAppli
 C:\Users\deqqu\RiderProjects\PM_HW_99\TestApplication\obj\Debug\net5.0\ref\TestApplication.dll
 C:\Users\deqqu\RiderProjects\PM_HW_99\TestApplication\obj\Debug\net5.0\TestApplication.pdb
 C:\Users\deqqu\RiderProjects\PM_HW_99\TestApplication\obj\Debug\net5.0\TestApplication.genruntimeconfig.cache
+C:\Users\deqqu\RiderProjects\PM_HW_99\TestApplication\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll

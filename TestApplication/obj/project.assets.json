@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Microsoft.IO.RecyclableMemoryStream/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -14,6 +23,31 @@
     }
   },
   "libraries": {
+    "Microsoft.IO.RecyclableMemoryStream/1.4.0": {
+      "sha512": "nyIMLK5l817HX2kURSanT+5ney8ja47FLlkjHHHq+fTb1EW3cS1C223pkSDkeGrjqhPYWwPZf63CcUam35hpCQ==",
+      "type": "package",
+      "path": "microsoft.io.recyclablememorystream/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net40/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/net45/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net45/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/net46/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net46/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard1.4/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard1.4/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
+        "microsoft.io.recyclablememorystream.1.4.0.nupkg.sha512",
+        "microsoft.io.recyclablememorystream.nuspec"
+      ]
+    },
     "Newtonsoft.Json/12.0.3": {
       "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
@@ -48,6 +82,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.IO.RecyclableMemoryStream >= 1.4.0",
       "Newtonsoft.Json >= 12.0.3"
     ]
   },
@@ -88,6 +123,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
